@@ -1,0 +1,1495 @@
+fileFormatVersion: 2
+guid: 5b9e105a64f0a0b43baf7f11c3bffb82
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Angel
+    100002: Angel_Armature
+    100004: Angel_weapon
+    100006: ArmController.L
+    100008: ArmController.L 1
+    100010: ArmController.L 2
+    100012: ArmController.R
+    100014: ArmController.R 1
+    100016: ArmController.R 2
+    100018: ArmPole.L
+    100020: ArmPole.L 1
+    100022: ArmPole.L 2
+    100024: ArmPole.L_end
+    100026: ArmPole.L_end 1
+    100028: ArmPole.L_end 2
+    100030: ArmPole.R
+    100032: ArmPole.R 1
+    100034: ArmPole.R 2
+    100036: ArmPole.R_end
+    100038: ArmPole.R_end 1
+    100040: ArmPole.R_end 2
+    100042: BackChain.L
+    100044: BackChain.L.001
+    100046: BackChain.L.002
+    100048: BackChain.L.003
+    100050: BackChain.L.004
+    100052: BackChain.L.005
+    100054: BackChain.L.006
+    100056: BackChain.L.007
+    100058: BackChain.L.008
+    100060: BackChain.L.009
+    100062: BackChain.L.009_end
+    100064: BackChain.R
+    100066: BackChain.R.001
+    100068: BackChain.R.002
+    100070: BackChain.R.003
+    100072: BackChain.R.004
+    100074: BackChain.R.005
+    100076: BackChain.R.006
+    100078: BackChain.R.007
+    100080: BackChain.R.008
+    100082: BackChain.R.009
+    100084: BackChain.R.009_end
+    100086: BackChainController.L
+    100088: BackChainController.L_end
+    100090: BackChainController.R
+    100092: BackChainController.R_end
+    100094: BackCloth
+    100096: BackCloth 1
+    100098: BackCloth.001
+    100100: BackCloth.001 1
+    100102: BackCloth.001_end
+    100104: BackCloth.002
+    100106: BackCloth.003
+    100108: BackCloth.004
+    100110: BackCloth.005
+    100112: BackCloth.006
+    100114: BackCloth.007
+    100116: BackCloth.007_end
+    100118: BackCloth.L
+    100120: BackCloth.L.001
+    100122: BackCloth.L.001_end
+    100124: BackCloth.R
+    100126: BackCloth.R.001
+    100128: BackCloth.R.001_end
+    100130: BackClothController
+    100132: BackClothController.L
+    100134: BackClothController.L_end
+    100136: BackClothController.R
+    100138: BackClothController.R_end
+    100140: BackClothController_end
+    100142: BackHairController
+    100144: BackHairController_end
+    100146: BackLeg.L
+    100148: BackLeg.R
+    100150: BackLegController.L
+    100152: BackLegController.R
+    100154: BackLegPole.L
+    100156: BackLegPole.L_end
+    100158: BackLegPole.R
+    100160: BackLegPole.R_end
+    100162: BackSideCloth.L
+    100164: BackSideCloth.L.001
+    100166: BackSideCloth.L.001_end
+    100168: BackSideCloth.R
+    100170: BackSideCloth.R.001
+    100172: BackSideCloth.R.001_end
+    100174: BackSideClothController.L
+    100176: BackSideClothController.L_end
+    100178: BackSideClothController.R
+    100180: BackSideClothController.R_end
+    100182: BackToe.L
+    100184: BackToe.L_end
+    100186: BackToe.R
+    100188: BackToe.R_end
+    100190: Baphomet
+    100192: //RootNode
+    100194: Baphomet_Armature
+    100196: Baphomet_beard
+    100198: Baphomet_crown
+    100200: Baphomet_eye.L
+    100202: Baphomet_eye.R
+    100204: Baphomet_flame
+    100206: Baphomet_weapon
+    100208: Bone
+    100210: BottomSideHairController.L
+    100212: BottomSideHairController.L_end
+    100214: BottomSideHairController.R
+    100216: BottomSideHairController.R_end
+    100218: breast.L
+    100220: breast.L 1
+    100222: breast.L 2
+    100224: breast.L 3
+    100226: breast.L 4
+    100228: breast.L_end
+    100230: breast.L_end 1
+    100232: breast.L_end 2
+    100234: breast.L_end 3
+    100236: breast.L_end 4
+    100238: breast.R
+    100240: breast.R 1
+    100242: breast.R 2
+    100244: breast.R 3
+    100246: breast.R 4
+    100248: breast.R_end
+    100250: breast.R_end 1
+    100252: breast.R_end 2
+    100254: breast.R_end 3
+    100256: breast.R_end 4
+    100258: Cape
+    100260: Cape.001
+    100262: Cape.002
+    100264: Cape.003
+    100266: Cape.004
+    100268: Cape.004_end
+    100270: ChainControllerShape
+    100272: ChainControllerShape.002
+    100274: ChainControllerShape.003
+    100276: ChainsController
+    100278: ClothControllerShapes
+    100280: Crown
+    100282: Crown_end
+    100284: Devil
+    100286: Devil_Armature
+    100288: Devil_eye.L
+    100290: Devil_eye.R
+    100292: Devil_weapon
+    100294: Ear.L
+    100296: Ear.L 1
+    100298: Ear.L_end
+    100300: Ear.L_end 1
+    100302: Ear.R
+    100304: Ear.R 1
+    100306: Ear.R_end
+    100308: Ear.R_end 1
+    100310: Eye.L
+    100312: Eye.L 1
+    100314: Eye.L 2
+    100316: Eye.L_end
+    100318: Eye.L_end 1
+    100320: Eye.L_end 2
+    100322: Eye.R
+    100324: Eye.R 1
+    100326: Eye.R 2
+    100328: Eye.R_end
+    100330: Eye.R_end 1
+    100332: Eye.R_end 2
+    100334: EyeController.L
+    100336: EyeController.L 1
+    100338: EyeController.L 2
+    100340: EyeController.L_end
+    100342: EyeController.L_end 1
+    100344: EyeController.L_end 2
+    100346: EyeController.R
+    100348: EyeController.R 1
+    100350: EyeController.R 2
+    100352: EyeController.R_end
+    100354: EyeController.R_end 1
+    100356: EyeController.R_end 2
+    100358: EyesController
+    100360: EyesController 1
+    100362: EyesController 2
+    100364: Foot.L
+    100366: foot.L
+    100368: foot.L 1
+    100370: foot.L 2
+    100372: Foot.R
+    100374: foot.R
+    100376: foot.R 1
+    100378: foot.R 2
+    100380: forearm.L
+    100382: forearm.L 1
+    100384: forearm.L 2
+    100386: forearm.R
+    100388: forearm.R 1
+    100390: forearm.R 2
+    100392: front_foot.L
+    100394: front_foot.R
+    100396: front_shin.L
+    100398: front_shin.R
+    100400: front_thigh.L
+    100402: front_thigh.R
+    100404: front_toe.L
+    100406: front_toe.L_end
+    100408: front_toe.R
+    100410: front_toe.R_end
+    100412: FrontChain.L
+    100414: FrontChain.L.001
+    100416: FrontChain.L.002
+    100418: FrontChain.L.003
+    100420: FrontChain.L.004
+    100422: FrontChain.L.005
+    100424: FrontChain.L.006
+    100426: FrontChain.L.007
+    100428: FrontChain.L.008
+    100430: FrontChain.L.009
+    100432: FrontChain.L.009_end
+    100434: FrontChain.R
+    100436: FrontChain.R.001
+    100438: FrontChain.R.002
+    100440: FrontChain.R.003
+    100442: FrontChain.R.004
+    100444: FrontChain.R.005
+    100446: FrontChain.R.006
+    100448: FrontChain.R.007
+    100450: FrontChain.R.008
+    100452: FrontChain.R.009
+    100454: FrontChain.R.009_end
+    100456: FrontChainController.L
+    100458: FrontChainController.L_end
+    100460: FrontChainController.R
+    100462: FrontChainController.R_end
+    100464: FrontCloth
+    100466: FrontCloth 1
+    100468: FrontCloth 2
+    100470: FrontCloth.001
+    100472: FrontCloth.001 1
+    100474: FrontCloth.001 2
+    100476: FrontCloth.001_end
+    100478: FrontCloth.002
+    100480: FrontCloth.002 1
+    100482: FrontCloth.003
+    100484: FrontCloth.003 1
+    100486: FrontCloth.004
+    100488: FrontCloth.004 1
+    100490: FrontCloth.005
+    100492: FrontCloth.005 1
+    100494: FrontCloth.006
+    100496: FrontCloth.006 1
+    100498: FrontCloth.006_end
+    100500: FrontCloth.006_end 1
+    100502: FrontCloth.L
+    100504: FrontCloth.L.001
+    100506: FrontCloth.L.001_end
+    100508: FrontCloth.R
+    100510: FrontCloth.R.001
+    100512: FrontCloth.R.001_end
+    100514: FrontClothController
+    100516: FrontClothController.L
+    100518: FrontClothController.L_end
+    100520: FrontClothController.R
+    100522: FrontClothController.R_end
+    100524: FrontClothController_end
+    100526: FrontLegController.L
+    100528: FrontLegController.R
+    100530: FrontLegPole.L
+    100532: FrontLegPole.L_end
+    100534: FrontLegPole.R
+    100536: FrontLegPole.R_end
+    100538: FrontSideCloth.L
+    100540: FrontSideCloth.L.001
+    100542: FrontSideCloth.L.001_end
+    100544: FrontSideCloth.R
+    100546: FrontSideCloth.R.001
+    100548: FrontSideCloth.R.001_end
+    100550: FrontSideClothController.L
+    100552: FrontSideClothController.L_end
+    100554: FrontSideClothController.R
+    100556: FrontSideClothController.R_end
+    100558: Ghost
+    100560: Ghost_Armature
+    100562: GhostHair
+    100564: GhostHair.001
+    100566: GhostHair.002
+    100568: GhostHair.003
+    100570: GhostHair.003_end
+    100572: GhostHair.004
+    100574: GhostHair.005
+    100576: GhostHair.006
+    100578: GhostHair.007
+    100580: GhostHair.007_end
+    100582: GhostHair.l
+    100584: GhostHair.l.001
+    100586: GhostHair.l.002
+    100588: GhostHair.l.002_end
+    100590: GhostHair.l.003
+    100592: GhostHair.l.004
+    100594: GhostHair.l.005
+    100596: GhostHair.l.005_end
+    100598: GhostHair.r
+    100600: GhostHair.r.001
+    100602: GhostHair.r.002
+    100604: GhostHair.r.002_end
+    100606: GhostHair.r.003
+    100608: GhostHair.r.004
+    100610: GhostHair.r.005
+    100612: GhostHair.r.005_end
+    100614: HairController
+    100616: hand.L
+    100618: hand.L 1
+    100620: hand.L 2
+    100622: hand.L 3
+    100624: hand.L.001
+    100626: hand.L.001 1
+    100628: hand.L.001 2
+    100630: hand.L.001 3
+    100632: hand.L.002
+    100634: hand.L.002 1
+    100636: hand.L.002 2
+    100638: hand.L.002 3
+    100640: hand.L.003
+    100642: hand.L.003 1
+    100644: hand.L.003 2
+    100646: hand.L.003 3
+    100648: hand.L.004
+    100650: hand.L.004 1
+    100652: hand.L.004 2
+    100654: hand.L.004 3
+    100656: hand.L.005
+    100658: hand.R
+    100660: hand.R 1
+    100662: hand.R 2
+    100664: hand.R 3
+    100666: hand.R.001
+    100668: hand.R.001 1
+    100670: hand.R.001 2
+    100672: hand.R.001 3
+    100674: hand.R.002
+    100676: hand.R.002 1
+    100678: hand.R.002 2
+    100680: hand.R.002 3
+    100682: hand.R.003
+    100684: hand.R.003 1
+    100686: hand.R.003 2
+    100688: hand.R.003 3
+    100690: hand.R.004
+    100692: hand.R.004 1
+    100694: hand.R.004 2
+    100696: hand.R.004 3
+    100698: hand.R.005
+    100700: Head
+    100702: Hellhound
+    100704: Hellhound_Armature
+    100706: Hellhound_eye.L
+    100708: Hellhound_eye.R
+    100710: Index.L
+    100712: Index.L 1
+    100714: Index.L 2
+    100716: Index.L 3
+    100718: Index.L.001
+    100720: Index.L.001 1
+    100722: Index.L.001 2
+    100724: Index.L.001 3
+    100726: Index.L.001_end
+    100728: Index.L.001_end 1
+    100730: Index.L.001_end 2
+    100732: Index.L.001_end 3
+    100734: Index.R
+    100736: Index.R 1
+    100738: Index.R 2
+    100740: Index.R 3
+    100742: Index.R.001
+    100744: Index.R.001 1
+    100746: Index.R.001 2
+    100748: Index.R.001 3
+    100750: Index.R.001_end
+    100752: Index.R.001_end 1
+    100754: Index.R.001_end 2
+    100756: Index.R.001_end 3
+    100758: Jaw
+    100760: Jaw_end
+    100762: LegController.L
+    100764: LegController.L 1
+    100766: LegController.L 2
+    100768: LegController.R
+    100770: LegController.R 1
+    100772: LegController.R 2
+    100774: LegPole.L
+    100776: LegPole.L 1
+    100778: LegPole.L 2
+    100780: LegPole.L_end
+    100782: LegPole.L_end 1
+    100784: LegPole.L_end 2
+    100786: LegPole.R
+    100788: LegPole.R 1
+    100790: LegPole.R 2
+    100792: LegPole.R_end
+    100794: LegPole.R_end 1
+    100796: LegPole.R_end 2
+    100798: Middle.L
+    100800: Middle.L 1
+    100802: Middle.L 2
+    100804: Middle.L 3
+    100806: Middle.L.001
+    100808: Middle.L.001 1
+    100810: Middle.L.001 2
+    100812: Middle.L.001 3
+    100814: Middle.L.001_end
+    100816: Middle.L.001_end 1
+    100818: Middle.L.001_end 2
+    100820: Middle.L.001_end 3
+    100822: Middle.R
+    100824: Middle.R 1
+    100826: Middle.R 2
+    100828: Middle.R 3
+    100830: Middle.R.001
+    100832: Middle.R.001 1
+    100834: Middle.R.001 2
+    100836: Middle.R.001 3
+    100838: Middle.R.001_end
+    100840: Middle.R.001_end 1
+    100842: Middle.R.001_end 2
+    100844: Middle.R.001_end 3
+    100846: Nose
+    100848: Nose 1
+    100850: Nose_end
+    100852: Nose_end 1
+    100854: pelvis.L
+    100856: pelvis.L 1
+    100858: pelvis.L 2
+    100860: pelvis.L 3
+    100862: pelvis.L_end
+    100864: pelvis.L_end 1
+    100866: pelvis.L_end 2
+    100868: pelvis.L_end 3
+    100870: pelvis.R
+    100872: pelvis.R 1
+    100874: pelvis.R 2
+    100876: pelvis.R 3
+    100878: pelvis.R_end
+    100880: pelvis.R_end 1
+    100882: pelvis.R_end 2
+    100884: pelvis.R_end 3
+    100886: Pentagram
+    100888: Pentagram_end
+    100890: Pinky.L
+    100892: Pinky.L 1
+    100894: Pinky.L 2
+    100896: Pinky.L 3
+    100898: Pinky.L.001
+    100900: Pinky.L.001 1
+    100902: Pinky.L.001 2
+    100904: Pinky.L.001 3
+    100906: Pinky.L.001_end
+    100908: Pinky.L.001_end 1
+    100910: Pinky.L.001_end 2
+    100912: Pinky.L.001_end 3
+    100914: Pinky.R
+    100916: Pinky.R 1
+    100918: Pinky.R 2
+    100920: Pinky.R 3
+    100922: Pinky.R.001
+    100924: Pinky.R.001 1
+    100926: Pinky.R.001 2
+    100928: Pinky.R.001 3
+    100930: Pinky.R.001_end
+    100932: Pinky.R.001_end 1
+    100934: Pinky.R.001_end 2
+    100936: Pinky.R.001_end 3
+    100938: Ring.L
+    100940: Ring.L.001
+    100942: Ring.L.001_end
+    100944: Ring.R
+    100946: Ring.R.001
+    100948: Ring.R.001_end
+    100950: Root
+    100952: Root 1
+    100954: Root 2
+    100956: Root 3
+    100958: Root 4
+    100960: RootShape
+    100962: shin.L
+    100964: shin.L 1
+    100966: shin.L 2
+    100968: shin.L 3
+    100970: shin.R
+    100972: shin.R 1
+    100974: shin.R 2
+    100976: shin.R 3
+    100978: shoulder.L
+    100980: shoulder.L 1
+    100982: shoulder.L 2
+    100984: shoulder.L 3
+    100986: shoulder.L 4
+    100988: shoulder.L_end
+    100990: shoulder.R
+    100992: shoulder.R 1
+    100994: shoulder.R 2
+    100996: shoulder.R 3
+    100998: shoulder.R 4
+    101000: shoulder.R_end
+    101002: SideCloth.L
+    101004: SideCloth.L.001
+    101006: SideCloth.L.002
+    101008: SideCloth.L.003
+    101010: SideCloth.L.004
+    101012: SideCloth.L.005
+    101014: SideCloth.L.006
+    101016: SideCloth.L.007
+    101018: SideCloth.L.007_end
+    101020: SideCloth.R
+    101022: SideCloth.R.001
+    101024: SideCloth.R.002
+    101026: SideCloth.R.003
+    101028: SideCloth.R.004
+    101030: SideCloth.R.005
+    101032: SideCloth.R.006
+    101034: SideCloth.R.007
+    101036: SideCloth.R.007_end
+    101038: Spike.L
+    101040: Spike.L_end
+    101042: Spike.R
+    101044: Spike.R_end
+    101046: spine
+    101048: spine 1
+    101050: spine 2
+    101052: spine 3
+    101054: spine 4
+    101056: spine.001
+    101058: spine.001 1
+    101060: spine.001 2
+    101062: spine.001 3
+    101064: spine.001 4
+    101066: spine.002
+    101068: spine.002 1
+    101070: spine.002 2
+    101072: spine.002 3
+    101074: spine.002 4
+    101076: spine.003
+    101078: spine.003 1
+    101080: spine.003 2
+    101082: spine.003 3
+    101084: spine.003 4
+    101086: spine.004
+    101088: spine.004 1
+    101090: spine.004 2
+    101092: spine.004 3
+    101094: spine.005
+    101096: spine.005 1
+    101098: spine.005 2
+    101100: spine.005 3
+    101102: spine.006
+    101104: spine.006 1
+    101106: spine.006 2
+    101108: spine.006 3
+    101110: spine.006_end
+    101112: spine.007
+    101114: spine.008
+    101116: spine.009
+    101118: spine.010
+    101120: spine.012
+    101122: spine.013
+    101124: spine_end
+    101126: Tail
+    101128: Tail.001
+    101130: Tail.001_end
+    101132: TailController
+    101134: TailController_end
+    101136: thigh.L
+    101138: thigh.L 1
+    101140: thigh.L 2
+    101142: thigh.L 3
+    101144: thigh.R
+    101146: thigh.R 1
+    101148: thigh.R 2
+    101150: thigh.R 3
+    101152: Thumb.L
+    101154: Thumb.L 1
+    101156: Thumb.L 2
+    101158: Thumb.L 3
+    101160: Thumb.L.001
+    101162: Thumb.L.001 1
+    101164: Thumb.L.001 2
+    101166: Thumb.L.001 3
+    101168: Thumb.L.001_end
+    101170: Thumb.L.001_end 1
+    101172: Thumb.L.001_end 2
+    101174: Thumb.L.001_end 3
+    101176: Thumb.R
+    101178: Thumb.R 1
+    101180: Thumb.R 2
+    101182: Thumb.R 3
+    101184: Thumb.R.001
+    101186: Thumb.R.001 1
+    101188: Thumb.R.001 2
+    101190: Thumb.R.001 3
+    101192: Thumb.R.001_end
+    101194: Thumb.R.001_end 1
+    101196: Thumb.R.001_end 2
+    101198: Thumb.R.001_end 3
+    101200: toe.L
+    101202: toe.L 1
+    101204: toe.L 2
+    101206: toe.L_end
+    101208: toe.L_end 1
+    101210: toe.L_end 2
+    101212: toe.R
+    101214: toe.R 1
+    101216: toe.R 2
+    101218: toe.R_end
+    101220: toe.R_end 1
+    101222: toe.R_end 2
+    101224: TopHairController
+    101226: TopHairController_end
+    101228: upper_arm.L
+    101230: upper_arm.L 1
+    101232: upper_arm.L 2
+    101234: upper_arm.R
+    101236: upper_arm.R 1
+    101238: upper_arm.R 2
+    101240: UpperSideHairController.L
+    101242: UpperSideHairController.L_end
+    101244: UpperSideHairController.R
+    101246: UpperSideHairController.R_end
+    101248: Weapon
+    101250: Weapon 1
+    101252: Weapon 2
+    101254: Weapon_end
+    101256: Weapon_end 1
+    101258: Weapon_end 2
+    101260: Wing.L
+    101262: Wing.L.001
+    101264: Wing.L.002
+    101266: Wing.L.003
+    101268: Wing.L.004
+    101270: Wing.L.006
+    101272: Wing.L.006_end
+    101274: Wing.L.007
+    101276: Wing.L.007_end
+    101278: Wing.L.008
+    101280: Wing.L.008_end
+    101282: Wing.L.009
+    101284: Wing.L.009_end
+    101286: Wing.L.010
+    101288: Wing.L.010_end
+    101290: Wing.L.011
+    101292: Wing.L.011_end
+    101294: Wing.L.012
+    101296: Wing.L.012_end
+    101298: Wing.R
+    101300: Wing.R.001
+    101302: Wing.R.002
+    101304: Wing.R.003
+    101306: Wing.R.004
+    101308: Wing.R.006
+    101310: Wing.R.006_end
+    101312: Wing.R.007
+    101314: Wing.R.007_end
+    101316: Wing.R.008
+    101318: Wing.R.008_end
+    101320: Wing.R.009
+    101322: Wing.R.009_end
+    101324: Wing.R.010
+    101326: Wing.R.010_end
+    101328: Wing.R.011
+    101330: Wing.R.011_end
+    101332: Wing.R.012
+    101334: Wing.R.012_end
+    400000: Angel
+    400002: Angel_Armature
+    400004: Angel_weapon
+    400006: ArmController.L
+    400008: ArmController.L 1
+    400010: ArmController.L 2
+    400012: ArmController.R
+    400014: ArmController.R 1
+    400016: ArmController.R 2
+    400018: ArmPole.L
+    400020: ArmPole.L 1
+    400022: ArmPole.L 2
+    400024: ArmPole.L_end
+    400026: ArmPole.L_end 1
+    400028: ArmPole.L_end 2
+    400030: ArmPole.R
+    400032: ArmPole.R 1
+    400034: ArmPole.R 2
+    400036: ArmPole.R_end
+    400038: ArmPole.R_end 1
+    400040: ArmPole.R_end 2
+    400042: BackChain.L
+    400044: BackChain.L.001
+    400046: BackChain.L.002
+    400048: BackChain.L.003
+    400050: BackChain.L.004
+    400052: BackChain.L.005
+    400054: BackChain.L.006
+    400056: BackChain.L.007
+    400058: BackChain.L.008
+    400060: BackChain.L.009
+    400062: BackChain.L.009_end
+    400064: BackChain.R
+    400066: BackChain.R.001
+    400068: BackChain.R.002
+    400070: BackChain.R.003
+    400072: BackChain.R.004
+    400074: BackChain.R.005
+    400076: BackChain.R.006
+    400078: BackChain.R.007
+    400080: BackChain.R.008
+    400082: BackChain.R.009
+    400084: BackChain.R.009_end
+    400086: BackChainController.L
+    400088: BackChainController.L_end
+    400090: BackChainController.R
+    400092: BackChainController.R_end
+    400094: BackCloth
+    400096: BackCloth 1
+    400098: BackCloth.001
+    400100: BackCloth.001 1
+    400102: BackCloth.001_end
+    400104: BackCloth.002
+    400106: BackCloth.003
+    400108: BackCloth.004
+    400110: BackCloth.005
+    400112: BackCloth.006
+    400114: BackCloth.007
+    400116: BackCloth.007_end
+    400118: BackCloth.L
+    400120: BackCloth.L.001
+    400122: BackCloth.L.001_end
+    400124: BackCloth.R
+    400126: BackCloth.R.001
+    400128: BackCloth.R.001_end
+    400130: BackClothController
+    400132: BackClothController.L
+    400134: BackClothController.L_end
+    400136: BackClothController.R
+    400138: BackClothController.R_end
+    400140: BackClothController_end
+    400142: BackHairController
+    400144: BackHairController_end
+    400146: BackLeg.L
+    400148: BackLeg.R
+    400150: BackLegController.L
+    400152: BackLegController.R
+    400154: BackLegPole.L
+    400156: BackLegPole.L_end
+    400158: BackLegPole.R
+    400160: BackLegPole.R_end
+    400162: BackSideCloth.L
+    400164: BackSideCloth.L.001
+    400166: BackSideCloth.L.001_end
+    400168: BackSideCloth.R
+    400170: BackSideCloth.R.001
+    400172: BackSideCloth.R.001_end
+    400174: BackSideClothController.L
+    400176: BackSideClothController.L_end
+    400178: BackSideClothController.R
+    400180: BackSideClothController.R_end
+    400182: BackToe.L
+    400184: BackToe.L_end
+    400186: BackToe.R
+    400188: BackToe.R_end
+    400190: //RootNode
+    400192: Baphomet
+    400194: Baphomet_Armature
+    400196: Baphomet_beard
+    400198: Baphomet_crown
+    400200: Baphomet_eye.L
+    400202: Baphomet_eye.R
+    400204: Baphomet_flame
+    400206: Baphomet_weapon
+    400208: Bone
+    400210: BottomSideHairController.L
+    400212: BottomSideHairController.L_end
+    400214: BottomSideHairController.R
+    400216: BottomSideHairController.R_end
+    400218: breast.L
+    400220: breast.L 1
+    400222: breast.L 2
+    400224: breast.L 3
+    400226: breast.L 4
+    400228: breast.L_end
+    400230: breast.L_end 1
+    400232: breast.L_end 2
+    400234: breast.L_end 3
+    400236: breast.L_end 4
+    400238: breast.R
+    400240: breast.R 1
+    400242: breast.R 2
+    400244: breast.R 3
+    400246: breast.R 4
+    400248: breast.R_end
+    400250: breast.R_end 1
+    400252: breast.R_end 2
+    400254: breast.R_end 3
+    400256: breast.R_end 4
+    400258: Cape
+    400260: Cape.001
+    400262: Cape.002
+    400264: Cape.003
+    400266: Cape.004
+    400268: Cape.004_end
+    400270: ChainControllerShape
+    400272: ChainControllerShape.002
+    400274: ChainControllerShape.003
+    400276: ChainsController
+    400278: ClothControllerShapes
+    400280: Crown
+    400282: Crown_end
+    400284: Devil
+    400286: Devil_Armature
+    400288: Devil_eye.L
+    400290: Devil_eye.R
+    400292: Devil_weapon
+    400294: Ear.L
+    400296: Ear.L 1
+    400298: Ear.L_end
+    400300: Ear.L_end 1
+    400302: Ear.R
+    400304: Ear.R 1
+    400306: Ear.R_end
+    400308: Ear.R_end 1
+    400310: Eye.L
+    400312: Eye.L 1
+    400314: Eye.L 2
+    400316: Eye.L_end
+    400318: Eye.L_end 1
+    400320: Eye.L_end 2
+    400322: Eye.R
+    400324: Eye.R 1
+    400326: Eye.R 2
+    400328: Eye.R_end
+    400330: Eye.R_end 1
+    400332: Eye.R_end 2
+    400334: EyeController.L
+    400336: EyeController.L 1
+    400338: EyeController.L 2
+    400340: EyeController.L_end
+    400342: EyeController.L_end 1
+    400344: EyeController.L_end 2
+    400346: EyeController.R
+    400348: EyeController.R 1
+    400350: EyeController.R 2
+    400352: EyeController.R_end
+    400354: EyeController.R_end 1
+    400356: EyeController.R_end 2
+    400358: EyesController
+    400360: EyesController 1
+    400362: EyesController 2
+    400364: Foot.L
+    400366: foot.L
+    400368: foot.L 1
+    400370: foot.L 2
+    400372: Foot.R
+    400374: foot.R
+    400376: foot.R 1
+    400378: foot.R 2
+    400380: forearm.L
+    400382: forearm.L 1
+    400384: forearm.L 2
+    400386: forearm.R
+    400388: forearm.R 1
+    400390: forearm.R 2
+    400392: front_foot.L
+    400394: front_foot.R
+    400396: front_shin.L
+    400398: front_shin.R
+    400400: front_thigh.L
+    400402: front_thigh.R
+    400404: front_toe.L
+    400406: front_toe.L_end
+    400408: front_toe.R
+    400410: front_toe.R_end
+    400412: FrontChain.L
+    400414: FrontChain.L.001
+    400416: FrontChain.L.002
+    400418: FrontChain.L.003
+    400420: FrontChain.L.004
+    400422: FrontChain.L.005
+    400424: FrontChain.L.006
+    400426: FrontChain.L.007
+    400428: FrontChain.L.008
+    400430: FrontChain.L.009
+    400432: FrontChain.L.009_end
+    400434: FrontChain.R
+    400436: FrontChain.R.001
+    400438: FrontChain.R.002
+    400440: FrontChain.R.003
+    400442: FrontChain.R.004
+    400444: FrontChain.R.005
+    400446: FrontChain.R.006
+    400448: FrontChain.R.007
+    400450: FrontChain.R.008
+    400452: FrontChain.R.009
+    400454: FrontChain.R.009_end
+    400456: FrontChainController.L
+    400458: FrontChainController.L_end
+    400460: FrontChainController.R
+    400462: FrontChainController.R_end
+    400464: FrontCloth
+    400466: FrontCloth 1
+    400468: FrontCloth 2
+    400470: FrontCloth.001
+    400472: FrontCloth.001 1
+    400474: FrontCloth.001 2
+    400476: FrontCloth.001_end
+    400478: FrontCloth.002
+    400480: FrontCloth.002 1
+    400482: FrontCloth.003
+    400484: FrontCloth.003 1
+    400486: FrontCloth.004
+    400488: FrontCloth.004 1
+    400490: FrontCloth.005
+    400492: FrontCloth.005 1
+    400494: FrontCloth.006
+    400496: FrontCloth.006 1
+    400498: FrontCloth.006_end
+    400500: FrontCloth.006_end 1
+    400502: FrontCloth.L
+    400504: FrontCloth.L.001
+    400506: FrontCloth.L.001_end
+    400508: FrontCloth.R
+    400510: FrontCloth.R.001
+    400512: FrontCloth.R.001_end
+    400514: FrontClothController
+    400516: FrontClothController.L
+    400518: FrontClothController.L_end
+    400520: FrontClothController.R
+    400522: FrontClothController.R_end
+    400524: FrontClothController_end
+    400526: FrontLegController.L
+    400528: FrontLegController.R
+    400530: FrontLegPole.L
+    400532: FrontLegPole.L_end
+    400534: FrontLegPole.R
+    400536: FrontLegPole.R_end
+    400538: FrontSideCloth.L
+    400540: FrontSideCloth.L.001
+    400542: FrontSideCloth.L.001_end
+    400544: FrontSideCloth.R
+    400546: FrontSideCloth.R.001
+    400548: FrontSideCloth.R.001_end
+    400550: FrontSideClothController.L
+    400552: FrontSideClothController.L_end
+    400554: FrontSideClothController.R
+    400556: FrontSideClothController.R_end
+    400558: Ghost
+    400560: Ghost_Armature
+    400562: GhostHair
+    400564: GhostHair.001
+    400566: GhostHair.002
+    400568: GhostHair.003
+    400570: GhostHair.003_end
+    400572: GhostHair.004
+    400574: GhostHair.005
+    400576: GhostHair.006
+    400578: GhostHair.007
+    400580: GhostHair.007_end
+    400582: GhostHair.l
+    400584: GhostHair.l.001
+    400586: GhostHair.l.002
+    400588: GhostHair.l.002_end
+    400590: GhostHair.l.003
+    400592: GhostHair.l.004
+    400594: GhostHair.l.005
+    400596: GhostHair.l.005_end
+    400598: GhostHair.r
+    400600: GhostHair.r.001
+    400602: GhostHair.r.002
+    400604: GhostHair.r.002_end
+    400606: GhostHair.r.003
+    400608: GhostHair.r.004
+    400610: GhostHair.r.005
+    400612: GhostHair.r.005_end
+    400614: HairController
+    400616: hand.L
+    400618: hand.L 1
+    400620: hand.L 2
+    400622: hand.L 3
+    400624: hand.L.001
+    400626: hand.L.001 1
+    400628: hand.L.001 2
+    400630: hand.L.001 3
+    400632: hand.L.002
+    400634: hand.L.002 1
+    400636: hand.L.002 2
+    400638: hand.L.002 3
+    400640: hand.L.003
+    400642: hand.L.003 1
+    400644: hand.L.003 2
+    400646: hand.L.003 3
+    400648: hand.L.004
+    400650: hand.L.004 1
+    400652: hand.L.004 2
+    400654: hand.L.004 3
+    400656: hand.L.005
+    400658: hand.R
+    400660: hand.R 1
+    400662: hand.R 2
+    400664: hand.R 3
+    400666: hand.R.001
+    400668: hand.R.001 1
+    400670: hand.R.001 2
+    400672: hand.R.001 3
+    400674: hand.R.002
+    400676: hand.R.002 1
+    400678: hand.R.002 2
+    400680: hand.R.002 3
+    400682: hand.R.003
+    400684: hand.R.003 1
+    400686: hand.R.003 2
+    400688: hand.R.003 3
+    400690: hand.R.004
+    400692: hand.R.004 1
+    400694: hand.R.004 2
+    400696: hand.R.004 3
+    400698: hand.R.005
+    400700: Head
+    400702: Hellhound
+    400704: Hellhound_Armature
+    400706: Hellhound_eye.L
+    400708: Hellhound_eye.R
+    400710: Index.L
+    400712: Index.L 1
+    400714: Index.L 2
+    400716: Index.L 3
+    400718: Index.L.001
+    400720: Index.L.001 1
+    400722: Index.L.001 2
+    400724: Index.L.001 3
+    400726: Index.L.001_end
+    400728: Index.L.001_end 1
+    400730: Index.L.001_end 2
+    400732: Index.L.001_end 3
+    400734: Index.R
+    400736: Index.R 1
+    400738: Index.R 2
+    400740: Index.R 3
+    400742: Index.R.001
+    400744: Index.R.001 1
+    400746: Index.R.001 2
+    400748: Index.R.001 3
+    400750: Index.R.001_end
+    400752: Index.R.001_end 1
+    400754: Index.R.001_end 2
+    400756: Index.R.001_end 3
+    400758: Jaw
+    400760: Jaw_end
+    400762: LegController.L
+    400764: LegController.L 1
+    400766: LegController.L 2
+    400768: LegController.R
+    400770: LegController.R 1
+    400772: LegController.R 2
+    400774: LegPole.L
+    400776: LegPole.L 1
+    400778: LegPole.L 2
+    400780: LegPole.L_end
+    400782: LegPole.L_end 1
+    400784: LegPole.L_end 2
+    400786: LegPole.R
+    400788: LegPole.R 1
+    400790: LegPole.R 2
+    400792: LegPole.R_end
+    400794: LegPole.R_end 1
+    400796: LegPole.R_end 2
+    400798: Middle.L
+    400800: Middle.L 1
+    400802: Middle.L 2
+    400804: Middle.L 3
+    400806: Middle.L.001
+    400808: Middle.L.001 1
+    400810: Middle.L.001 2
+    400812: Middle.L.001 3
+    400814: Middle.L.001_end
+    400816: Middle.L.001_end 1
+    400818: Middle.L.001_end 2
+    400820: Middle.L.001_end 3
+    400822: Middle.R
+    400824: Middle.R 1
+    400826: Middle.R 2
+    400828: Middle.R 3
+    400830: Middle.R.001
+    400832: Middle.R.001 1
+    400834: Middle.R.001 2
+    400836: Middle.R.001 3
+    400838: Middle.R.001_end
+    400840: Middle.R.001_end 1
+    400842: Middle.R.001_end 2
+    400844: Middle.R.001_end 3
+    400846: Nose
+    400848: Nose 1
+    400850: Nose_end
+    400852: Nose_end 1
+    400854: pelvis.L
+    400856: pelvis.L 1
+    400858: pelvis.L 2
+    400860: pelvis.L 3
+    400862: pelvis.L_end
+    400864: pelvis.L_end 1
+    400866: pelvis.L_end 2
+    400868: pelvis.L_end 3
+    400870: pelvis.R
+    400872: pelvis.R 1
+    400874: pelvis.R 2
+    400876: pelvis.R 3
+    400878: pelvis.R_end
+    400880: pelvis.R_end 1
+    400882: pelvis.R_end 2
+    400884: pelvis.R_end 3
+    400886: Pentagram
+    400888: Pentagram_end
+    400890: Pinky.L
+    400892: Pinky.L 1
+    400894: Pinky.L 2
+    400896: Pinky.L 3
+    400898: Pinky.L.001
+    400900: Pinky.L.001 1
+    400902: Pinky.L.001 2
+    400904: Pinky.L.001 3
+    400906: Pinky.L.001_end
+    400908: Pinky.L.001_end 1
+    400910: Pinky.L.001_end 2
+    400912: Pinky.L.001_end 3
+    400914: Pinky.R
+    400916: Pinky.R 1
+    400918: Pinky.R 2
+    400920: Pinky.R 3
+    400922: Pinky.R.001
+    400924: Pinky.R.001 1
+    400926: Pinky.R.001 2
+    400928: Pinky.R.001 3
+    400930: Pinky.R.001_end
+    400932: Pinky.R.001_end 1
+    400934: Pinky.R.001_end 2
+    400936: Pinky.R.001_end 3
+    400938: Ring.L
+    400940: Ring.L.001
+    400942: Ring.L.001_end
+    400944: Ring.R
+    400946: Ring.R.001
+    400948: Ring.R.001_end
+    400950: Root
+    400952: Root 1
+    400954: Root 2
+    400956: Root 3
+    400958: Root 4
+    400960: RootShape
+    400962: shin.L
+    400964: shin.L 1
+    400966: shin.L 2
+    400968: shin.L 3
+    400970: shin.R
+    400972: shin.R 1
+    400974: shin.R 2
+    400976: shin.R 3
+    400978: shoulder.L
+    400980: shoulder.L 1
+    400982: shoulder.L 2
+    400984: shoulder.L 3
+    400986: shoulder.L 4
+    400988: shoulder.L_end
+    400990: shoulder.R
+    400992: shoulder.R 1
+    400994: shoulder.R 2
+    400996: shoulder.R 3
+    400998: shoulder.R 4
+    401000: shoulder.R_end
+    401002: SideCloth.L
+    401004: SideCloth.L.001
+    401006: SideCloth.L.002
+    401008: SideCloth.L.003
+    401010: SideCloth.L.004
+    401012: SideCloth.L.005
+    401014: SideCloth.L.006
+    401016: SideCloth.L.007
+    401018: SideCloth.L.007_end
+    401020: SideCloth.R
+    401022: SideCloth.R.001
+    401024: SideCloth.R.002
+    401026: SideCloth.R.003
+    401028: SideCloth.R.004
+    401030: SideCloth.R.005
+    401032: SideCloth.R.006
+    401034: SideCloth.R.007
+    401036: SideCloth.R.007_end
+    401038: Spike.L
+    401040: Spike.L_end
+    401042: Spike.R
+    401044: Spike.R_end
+    401046: spine
+    401048: spine 1
+    401050: spine 2
+    401052: spine 3
+    401054: spine 4
+    401056: spine.001
+    401058: spine.001 1
+    401060: spine.001 2
+    401062: spine.001 3
+    401064: spine.001 4
+    401066: spine.002
+    401068: spine.002 1
+    401070: spine.002 2
+    401072: spine.002 3
+    401074: spine.002 4
+    401076: spine.003
+    401078: spine.003 1
+    401080: spine.003 2
+    401082: spine.003 3
+    401084: spine.003 4
+    401086: spine.004
+    401088: spine.004 1
+    401090: spine.004 2
+    401092: spine.004 3
+    401094: spine.005
+    401096: spine.005 1
+    401098: spine.005 2
+    401100: spine.005 3
+    401102: spine.006
+    401104: spine.006 1
+    401106: spine.006 2
+    401108: spine.006 3
+    401110: spine.006_end
+    401112: spine.007
+    401114: spine.008
+    401116: spine.009
+    401118: spine.010
+    401120: spine.012
+    401122: spine.013
+    401124: spine_end
+    401126: Tail
+    401128: Tail.001
+    401130: Tail.001_end
+    401132: TailController
+    401134: TailController_end
+    401136: thigh.L
+    401138: thigh.L 1
+    401140: thigh.L 2
+    401142: thigh.L 3
+    401144: thigh.R
+    401146: thigh.R 1
+    401148: thigh.R 2
+    401150: thigh.R 3
+    401152: Thumb.L
+    401154: Thumb.L 1
+    401156: Thumb.L 2
+    401158: Thumb.L 3
+    401160: Thumb.L.001
+    401162: Thumb.L.001 1
+    401164: Thumb.L.001 2
+    401166: Thumb.L.001 3
+    401168: Thumb.L.001_end
+    401170: Thumb.L.001_end 1
+    401172: Thumb.L.001_end 2
+    401174: Thumb.L.001_end 3
+    401176: Thumb.R
+    401178: Thumb.R 1
+    401180: Thumb.R 2
+    401182: Thumb.R 3
+    401184: Thumb.R.001
+    401186: Thumb.R.001 1
+    401188: Thumb.R.001 2
+    401190: Thumb.R.001 3
+    401192: Thumb.R.001_end
+    401194: Thumb.R.001_end 1
+    401196: Thumb.R.001_end 2
+    401198: Thumb.R.001_end 3
+    401200: toe.L
+    401202: toe.L 1
+    401204: toe.L 2
+    401206: toe.L_end
+    401208: toe.L_end 1
+    401210: toe.L_end 2
+    401212: toe.R
+    401214: toe.R 1
+    401216: toe.R 2
+    401218: toe.R_end
+    401220: toe.R_end 1
+    401222: toe.R_end 2
+    401224: TopHairController
+    401226: TopHairController_end
+    401228: upper_arm.L
+    401230: upper_arm.L 1
+    401232: upper_arm.L 2
+    401234: upper_arm.R
+    401236: upper_arm.R 1
+    401238: upper_arm.R 2
+    401240: UpperSideHairController.L
+    401242: UpperSideHairController.L_end
+    401244: UpperSideHairController.R
+    401246: UpperSideHairController.R_end
+    401248: Weapon
+    401250: Weapon 1
+    401252: Weapon 2
+    401254: Weapon_end
+    401256: Weapon_end 1
+    401258: Weapon_end 2
+    401260: Wing.L
+    401262: Wing.L.001
+    401264: Wing.L.002
+    401266: Wing.L.003
+    401268: Wing.L.004
+    401270: Wing.L.006
+    401272: Wing.L.006_end
+    401274: Wing.L.007
+    401276: Wing.L.007_end
+    401278: Wing.L.008
+    401280: Wing.L.008_end
+    401282: Wing.L.009
+    401284: Wing.L.009_end
+    401286: Wing.L.010
+    401288: Wing.L.010_end
+    401290: Wing.L.011
+    401292: Wing.L.011_end
+    401294: Wing.L.012
+    401296: Wing.L.012_end
+    401298: Wing.R
+    401300: Wing.R.001
+    401302: Wing.R.002
+    401304: Wing.R.003
+    401306: Wing.R.004
+    401308: Wing.R.006
+    401310: Wing.R.006_end
+    401312: Wing.R.007
+    401314: Wing.R.007_end
+    401316: Wing.R.008
+    401318: Wing.R.008_end
+    401320: Wing.R.009
+    401322: Wing.R.009_end
+    401324: Wing.R.010
+    401326: Wing.R.010_end
+    401328: Wing.R.011
+    401330: Wing.R.011_end
+    401332: Wing.R.012
+    401334: Wing.R.012_end
+    2100000: Baphomet_mat
+    2100002: Ghost_mat
+    2100004: Hellhound_mat
+    2100006: Angel_mat
+    2100008: Devil_mat
+    2300000: Angel_weapon
+    2300002: Baphomet_beard
+    2300004: Baphomet_crown
+    2300006: Baphomet_eye.L
+    2300008: Baphomet_eye.R
+    2300010: Baphomet_flame
+    2300012: Baphomet_weapon
+    2300014: ChainControllerShape
+    2300016: ChainControllerShape.002
+    2300018: ChainControllerShape.003
+    2300020: ClothControllerShapes
+    2300022: Devil_eye.L
+    2300024: Devil_eye.R
+    2300026: Devil_weapon
+    2300028: Hellhound_eye.L
+    2300030: Hellhound_eye.R
+    2300032: RootShape
+    3300000: Angel_weapon
+    3300002: Baphomet_beard
+    3300004: Baphomet_crown
+    3300006: Baphomet_eye.L
+    3300008: Baphomet_eye.R
+    3300010: Baphomet_flame
+    3300012: Baphomet_weapon
+    3300014: ChainControllerShape
+    3300016: ChainControllerShape.002
+    3300018: ChainControllerShape.003
+    3300020: ClothControllerShapes
+    3300022: Devil_eye.L
+    3300024: Devil_eye.R
+    3300026: Devil_weapon
+    3300028: Hellhound_eye.L
+    3300030: Hellhound_eye.R
+    3300032: RootShape
+    4300000: Baphomet
+    4300002: Baphomet_crown
+    4300004: Baphomet_flame
+    4300006: Baphomet_eye.L
+    4300008: Baphomet_beard
+    4300010: Baphomet_eye.R
+    4300012: Baphomet_weapon
+    4300014: Ghost
+    4300016: RootShape
+    4300018: ChainControllerShape
+    4300020: ClothControllerShapes
+    4300022: ChainControllerShape.002
+    4300024: ChainControllerShape.003
+    4300026: Hellhound
+    4300028: Hellhound_eye.L
+    4300030: Hellhound_eye.R
+    4300032: Angel
+    4300034: Angel_weapon
+    4300036: Devil
+    4300038: Devil_eye.L
+    4300040: Devil_eye.R
+    4300042: Devil_weapon
+    9500000: //RootNode
+    13700000: Angel
+    13700002: Baphomet
+    13700004: Devil
+    13700006: Ghost
+    13700008: Hellhound
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.2
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.002
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

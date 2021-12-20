@@ -1,0 +1,2548 @@
+fileFormatVersion: 2
+guid: 8d151b54423bbbe44b21026039f6554a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Archer
+    100002: Archer.001
+    100004: Archer.002
+    100006: ArcherOrcRig
+    100008: ArmCloth
+    100010: ArmCloth_end
+    100012: ArmController.L
+    100014: ArmController.L 1
+    100016: ArmController.L 2
+    100018: ArmController.L 3
+    100020: ArmController.L 4
+    100022: ArmController.R
+    100024: ArmController.R 1
+    100026: ArmController.R 2
+    100028: ArmController.R 3
+    100030: ArmController.R 4
+    100032: ArmPole.L
+    100034: ArmPole.L 1
+    100036: ArmPole.L 2
+    100038: ArmPole.L 3
+    100040: ArmPole.L 4
+    100042: ArmPole.L_end
+    100044: ArmPole.L_end 1
+    100046: ArmPole.L_end 2
+    100048: ArmPole.L_end 3
+    100050: ArmPole.L_end 4
+    100052: ArmPole.R
+    100054: ArmPole.R 1
+    100056: ArmPole.R 2
+    100058: ArmPole.R 3
+    100060: ArmPole.R 4
+    100062: ArmPole.R_end
+    100064: ArmPole.R_end 1
+    100066: ArmPole.R_end 2
+    100068: ArmPole.R_end 3
+    100070: ArmPole.R_end 4
+    100072: ArrowCase
+    100074: ArrowCase_end
+    100076: BaseOrcRig
+    100078: Beard
+    100080: Beard_end
+    100082: Belt
+    100084: Belt.001
+    100086: Belt.002
+    100088: Belt.003
+    100090: Bow
+    100092: breast.L
+    100094: breast.L 1
+    100096: breast.L 2
+    100098: breast.L 3
+    100100: breast.L 4
+    100102: breast.L_end
+    100104: breast.L_end 1
+    100106: breast.L_end 2
+    100108: breast.L_end 3
+    100110: breast.L_end 4
+    100112: breast.R
+    100114: breast.R 1
+    100116: breast.R 2
+    100118: breast.R 3
+    100120: breast.R 4
+    100122: breast.R_end
+    100124: breast.R_end 1
+    100126: breast.R_end 2
+    100128: breast.R_end 3
+    100130: breast.R_end 4
+    100132: Cape
+    100134: Cape.001
+    100136: Cape.002
+    100138: Cape.003
+    100140: Cape.003_end
+    100142: Cape.L
+    100144: Cape.L.001
+    100146: Cape.L.002
+    100148: Cape.L.003
+    100150: Cape.L.003_end
+    100152: Cape.R
+    100154: Cape.R.001
+    100156: Cape.R.002
+    100158: Cape.R.003
+    100160: Cape.R.003_end
+    100162: ChestPiece
+    100164: ChestPiece_end
+    100166: Club
+    100168: Cube.001
+    100170: Cube.002
+    100172: Cube.003
+    100174: Cylinder
+    100176: Cylinder.001
+    100178: Cylinder.006
+    100180: Ear.L
+    100182: Ear.L 1
+    100184: Ear.L 2
+    100186: Ear.L 3
+    100188: Ear.L_end
+    100190: Ear.L_end 1
+    100192: Ear.L_end 2
+    100194: Ear.L_end 3
+    100196: Ear.R
+    100198: Ear.R 1
+    100200: Ear.R 2
+    100202: Ear.R 3
+    100204: Ear.R_end
+    100206: Ear.R_end 1
+    100208: Ear.R_end 2
+    100210: Ear.R_end 3
+    100212: Eye.L
+    100214: Eye.L 1
+    100216: Eye.L 2
+    100218: Eye.L 3
+    100220: Eye.L 4
+    100222: Eye.L 5
+    100224: Eye.L_end
+    100226: Eye.L_end 1
+    100228: Eye.L_end 2
+    100230: Eye.L_end 3
+    100232: Eye.L_end 4
+    100234: Eye.R
+    100236: Eye.R 1
+    100238: Eye.R 2
+    100240: Eye.R 3
+    100242: Eye.R 4
+    100244: Eye.R 5
+    100246: Eye.R_end
+    100248: Eye.R_end 1
+    100250: Eye.R_end 2
+    100252: Eye.R_end 3
+    100254: Eye.R_end 4
+    100256: EyeController.L
+    100258: EyeController.L 1
+    100260: EyeController.L 2
+    100262: EyeController.L 3
+    100264: EyeController.L 4
+    100266: EyeController.L_end
+    100268: EyeController.L_end 1
+    100270: EyeController.L_end 2
+    100272: EyeController.L_end 3
+    100274: EyeController.L_end 4
+    100276: EyeController.R
+    100278: EyeController.R 1
+    100280: EyeController.R 2
+    100282: EyeController.R 3
+    100284: EyeController.R 4
+    100286: EyeController.R_end
+    100288: EyeController.R_end 1
+    100290: EyeController.R_end 2
+    100292: EyeController.R_end 3
+    100294: EyeController.R_end 4
+    100296: Eyes
+    100298: Eyes.001
+    100300: EyesController
+    100302: EyesController 1
+    100304: EyesController 2
+    100306: EyesController 3
+    100308: EyesController 4
+    100310: FighterOrcRig
+    100312: foot.L
+    100314: foot.L 1
+    100316: foot.L 2
+    100318: foot.L 3
+    100320: foot.L 4
+    100322: foot.R
+    100324: foot.R 1
+    100326: foot.R 2
+    100328: foot.R 3
+    100330: foot.R 4
+    100332: forearm.L
+    100334: forearm.L 1
+    100336: forearm.L 2
+    100338: forearm.L 3
+    100340: forearm.L 4
+    100342: forearm.R
+    100344: forearm.R 1
+    100346: forearm.R 2
+    100348: forearm.R 3
+    100350: forearm.R 4
+    100352: Hair
+    100354: Hair.001
+    100356: Hair.002
+    100358: Hair.003
+    100360: Hair.003_end
+    100362: hand.L
+    100364: hand.L 1
+    100366: hand.L 2
+    100368: hand.L 3
+    100370: hand.L 4
+    100372: hand.L.001
+    100374: hand.L.001 1
+    100376: hand.L.001 2
+    100378: hand.L.001 3
+    100380: hand.L.001 4
+    100382: hand.L.002
+    100384: hand.L.002 1
+    100386: hand.L.002 2
+    100388: hand.L.002 3
+    100390: hand.L.002 4
+    100392: hand.L.003
+    100394: hand.L.003 1
+    100396: hand.L.003 2
+    100398: hand.L.003 3
+    100400: hand.L.003 4
+    100402: hand.L.004
+    100404: hand.L.004 1
+    100406: hand.L.004 2
+    100408: hand.L.004 3
+    100410: hand.L.004 4
+    100412: hand.L.005
+    100414: hand.L.005 1
+    100416: hand.L.005 2
+    100418: hand.L.005 3
+    100420: hand.L.005 4
+    100422: hand.R
+    100424: hand.R 1
+    100426: hand.R 2
+    100428: hand.R 3
+    100430: hand.R 4
+    100432: hand.R.001
+    100434: hand.R.001 1
+    100436: hand.R.001 2
+    100438: hand.R.001 3
+    100440: hand.R.001 4
+    100442: hand.R.002
+    100444: hand.R.002 1
+    100446: hand.R.002 2
+    100448: hand.R.002 3
+    100450: hand.R.002 4
+    100452: hand.R.003
+    100454: hand.R.003 1
+    100456: hand.R.003 2
+    100458: hand.R.003 3
+    100460: hand.R.003 4
+    100462: hand.R.004
+    100464: hand.R.004 1
+    100466: hand.R.004 2
+    100468: hand.R.004 3
+    100470: hand.R.004 4
+    100472: hand.R.005
+    100474: hand.R.005 1
+    100476: hand.R.005 2
+    100478: hand.R.005 3
+    100480: hand.R.005 4
+    100482: HandPlate.L
+    100484: HandPlate.R
+    100486: heel.02.L
+    100488: heel.02.L 1
+    100490: heel.02.L 2
+    100492: heel.02.L 3
+    100494: heel.02.L 4
+    100496: heel.02.L_end
+    100498: heel.02.L_end 1
+    100500: heel.02.L_end 2
+    100502: heel.02.L_end 3
+    100504: heel.02.L_end 4
+    100506: heel.02.R
+    100508: heel.02.R 1
+    100510: heel.02.R 2
+    100512: heel.02.R 3
+    100514: heel.02.R 4
+    100516: heel.02.R_end
+    100518: heel.02.R_end 1
+    100520: heel.02.R_end 2
+    100522: heel.02.R_end 3
+    100524: heel.02.R_end 4
+    100526: Helmet
+    100528: Helmet_end
+    100530: Index.L
+    100532: Index.L 1
+    100534: Index.L 2
+    100536: Index.L 3
+    100538: Index.L 4
+    100540: Index.L.001
+    100542: Index.L.001 1
+    100544: Index.L.001 2
+    100546: Index.L.001 3
+    100548: Index.L.001 4
+    100550: Index.L.001_end
+    100552: Index.L.001_end 1
+    100554: Index.L.001_end 2
+    100556: Index.L.001_end 3
+    100558: Index.L.001_end 4
+    100560: Index.R
+    100562: Index.R 1
+    100564: Index.R 2
+    100566: Index.R 3
+    100568: Index.R 4
+    100570: Index.R.001
+    100572: Index.R.001 1
+    100574: Index.R.001 2
+    100576: Index.R.001 3
+    100578: Index.R.001 4
+    100580: Index.R.001_end
+    100582: Index.R.001_end 1
+    100584: Index.R.001_end 2
+    100586: Index.R.001_end 3
+    100588: Index.R.001_end 4
+    100590: KneePad
+    100592: KneePad.001
+    100594: KneePad.L
+    100596: KneePad.L 1
+    100598: KneePad.L_end
+    100600: KneePad.L_end 1
+    100602: KneePad.R
+    100604: KneePad.R 1
+    100606: KneePad.R_end
+    100608: KneePad.R_end 1
+    100610: LegController.L
+    100612: LegController.L 1
+    100614: LegController.L 2
+    100616: LegController.L 3
+    100618: LegController.L 4
+    100620: LegController.R
+    100622: LegController.R 1
+    100624: LegController.R 2
+    100626: LegController.R 3
+    100628: LegController.R 4
+    100630: LegPole.L
+    100632: LegPole.L 1
+    100634: LegPole.L 2
+    100636: LegPole.L 3
+    100638: LegPole.L 4
+    100640: LegPole.L_end
+    100642: LegPole.L_end 1
+    100644: LegPole.L_end 2
+    100646: LegPole.L_end 3
+    100648: LegPole.L_end 4
+    100650: LegPole.R
+    100652: LegPole.R 1
+    100654: LegPole.R 2
+    100656: LegPole.R 3
+    100658: LegPole.R 4
+    100660: LegPole.R_end
+    100662: LegPole.R_end 1
+    100664: LegPole.R_end 2
+    100666: LegPole.R_end 3
+    100668: LegPole.R_end 4
+    100670: Middle.L
+    100672: Middle.L 1
+    100674: Middle.L 2
+    100676: Middle.L 3
+    100678: Middle.L 4
+    100680: Middle.L.001
+    100682: Middle.L.001 1
+    100684: Middle.L.001 2
+    100686: Middle.L.001 3
+    100688: Middle.L.001 4
+    100690: Middle.L.001_end
+    100692: Middle.L.001_end 1
+    100694: Middle.L.001_end 2
+    100696: Middle.L.001_end 3
+    100698: Middle.L.001_end 4
+    100700: Middle.R
+    100702: Middle.R 1
+    100704: Middle.R 2
+    100706: Middle.R 3
+    100708: Middle.R 4
+    100710: Middle.R.001
+    100712: Middle.R.001 1
+    100714: Middle.R.001 2
+    100716: Middle.R.001 3
+    100718: Middle.R.001 4
+    100720: Middle.R.001_end
+    100722: Middle.R.001_end 1
+    100724: Middle.R.001_end 2
+    100726: Middle.R.001_end 3
+    100728: Middle.R.001_end 4
+    100730: //RootNode
+    100732: pelvis.L
+    100734: pelvis.L 1
+    100736: pelvis.L 2
+    100738: pelvis.L 3
+    100740: pelvis.L 4
+    100742: pelvis.L_end
+    100744: pelvis.L_end 1
+    100746: pelvis.L_end 2
+    100748: pelvis.L_end 3
+    100750: pelvis.L_end 4
+    100752: pelvis.R
+    100754: pelvis.R 1
+    100756: pelvis.R 2
+    100758: pelvis.R 3
+    100760: pelvis.R 4
+    100762: pelvis.R_end
+    100764: pelvis.R_end 1
+    100766: pelvis.R_end 2
+    100768: pelvis.R_end 3
+    100770: pelvis.R_end 4
+    100772: Pinky.L
+    100774: Pinky.L 1
+    100776: Pinky.L 2
+    100778: Pinky.L 3
+    100780: Pinky.L 4
+    100782: Pinky.L.001
+    100784: Pinky.L.001 1
+    100786: Pinky.L.001 2
+    100788: Pinky.L.001 3
+    100790: Pinky.L.001 4
+    100792: Pinky.L.001_end
+    100794: Pinky.L.001_end 1
+    100796: Pinky.L.001_end 2
+    100798: Pinky.L.001_end 3
+    100800: Pinky.L.001_end 4
+    100802: Pinky.R
+    100804: Pinky.R 1
+    100806: Pinky.R 2
+    100808: Pinky.R 3
+    100810: Pinky.R 4
+    100812: Pinky.R.001
+    100814: Pinky.R.001 1
+    100816: Pinky.R.001 2
+    100818: Pinky.R.001 3
+    100820: Pinky.R.001 4
+    100822: Pinky.R.001_end
+    100824: Pinky.R.001_end 1
+    100826: Pinky.R.001_end 2
+    100828: Pinky.R.001_end 3
+    100830: Pinky.R.001_end 4
+    100832: Plane.003
+    100834: Plane.011
+    100836: Retopo
+    100838: Retopo.001
+    100840: Retopo.002
+    100842: Retopo.003
+    100844: Retopo.004
+    100846: Retopo.006
+    100848: Retopo.008
+    100850: Ring.L
+    100852: Ring.L 1
+    100854: Ring.L 2
+    100856: Ring.L 3
+    100858: Ring.L 4
+    100860: Ring.L.001
+    100862: Ring.L.001 1
+    100864: Ring.L.001 2
+    100866: Ring.L.001 3
+    100868: Ring.L.001 4
+    100870: Ring.L.001_end
+    100872: Ring.L.001_end 1
+    100874: Ring.L.001_end 2
+    100876: Ring.L.001_end 3
+    100878: Ring.L.001_end 4
+    100880: Ring.R
+    100882: Ring.R 1
+    100884: Ring.R 2
+    100886: Ring.R 3
+    100888: Ring.R 4
+    100890: Ring.R.001
+    100892: Ring.R.001 1
+    100894: Ring.R.001 2
+    100896: Ring.R.001 3
+    100898: Ring.R.001 4
+    100900: Ring.R.001_end
+    100902: Ring.R.001_end 1
+    100904: Ring.R.001_end 2
+    100906: Ring.R.001_end 3
+    100908: Ring.R.001_end 4
+    100910: Root
+    100912: Root 1
+    100914: Root 2
+    100916: Root 3
+    100918: Root 4
+    100920: Sc
+    100922: shin.L
+    100924: shin.L 1
+    100926: shin.L 2
+    100928: shin.L 3
+    100930: shin.L 4
+    100932: shin.R
+    100934: shin.R 1
+    100936: shin.R 2
+    100938: shin.R 3
+    100940: shin.R 4
+    100942: shoulder.L
+    100944: shoulder.L 1
+    100946: shoulder.L 2
+    100948: shoulder.L 3
+    100950: shoulder.L 4
+    100952: shoulder.R
+    100954: shoulder.R 1
+    100956: shoulder.R 2
+    100958: shoulder.R 3
+    100960: shoulder.R 4
+    100962: ShoulderPad.L
+    100964: ShoulderPad.L_end
+    100966: ShoulderPad.R
+    100968: ShoulderPad.R_end
+    100970: ShoulderPiece
+    100972: Skirt
+    100974: Skirt 1
+    100976: Skirt 2
+    100978: Skirt 3
+    100980: Skirt.001
+    100982: Skirt.001 1
+    100984: Skirt.001 2
+    100986: Skirt.001 3
+    100988: Skirt.001_end
+    100990: Skirt.001_end 1
+    100992: Skirt.002
+    100994: Skirt.002 1
+    100996: Skirt.002 2
+    100998: Skirt.002_end
+    101000: Skirt.003
+    101002: Skirt.003 1
+    101004: Skirt.003_end
+    101006: Skirt.003_end 1
+    101008: Skirt.004
+    101010: Skirt.004_end
+    101012: Skirt.L
+    101014: Skirt.L 1
+    101016: Skirt.L 2
+    101018: Skirt.L.001
+    101020: Skirt.L.001 1
+    101022: Skirt.L.001 2
+    101024: Skirt.L.001_end
+    101026: Skirt.L.001_end 1
+    101028: Skirt.L.001_end 2
+    101030: Skirt.L.002
+    101032: Skirt.L.002 1
+    101034: Skirt.L.003
+    101036: Skirt.L.003 1
+    101038: Skirt.L.003_end
+    101040: Skirt.L.003_end 1
+    101042: Skirt.L.004
+    101044: Skirt.L.005
+    101046: Skirt.L.005_end
+    101048: Skirt.L.006
+    101050: Skirt.L.007
+    101052: Skirt.L.007_end
+    101054: Skirt.L.008
+    101056: Skirt.L.009
+    101058: Skirt.L.009_end
+    101060: Skirt.R
+    101062: Skirt.R 1
+    101064: Skirt.R 2
+    101066: Skirt.R.001
+    101068: Skirt.R.001 1
+    101070: Skirt.R.001 2
+    101072: Skirt.R.001_end
+    101074: Skirt.R.001_end 1
+    101076: Skirt.R.001_end 2
+    101078: Skirt.R.002
+    101080: Skirt.R.002 1
+    101082: Skirt.R.003
+    101084: Skirt.R.003 1
+    101086: Skirt.R.003_end
+    101088: Skirt.R.003_end 1
+    101090: Skirt.R.004
+    101092: Skirt.R.005
+    101094: Skirt.R.005_end
+    101096: Skirt.R.006
+    101098: Skirt.R.007
+    101100: Skirt.R.007_end
+    101102: Skirt.R.008
+    101104: Skirt.R.009
+    101106: Skirt.R.009_end
+    101108: Sphere.001
+    101110: Sphere.002
+    101112: Sphere.004
+    101114: Sphere.017
+    101116: Sphere.020
+    101118: Sphere.023
+    101120: Sphere.024
+    101122: Spikes.L
+    101124: Spikes.L.001
+    101126: Spikes.L.001_end
+    101128: Spikes.L.002
+    101130: Spikes.L.002_end
+    101132: Spikes.L_end
+    101134: Spikes.R
+    101136: Spikes.R.001
+    101138: Spikes.R.001_end
+    101140: Spikes.R.002
+    101142: Spikes.R.002_end
+    101144: Spikes.R_end
+    101146: spine
+    101148: spine 1
+    101150: spine 2
+    101152: spine 3
+    101154: spine 4
+    101156: spine.001
+    101158: spine.001 1
+    101160: spine.001 2
+    101162: spine.001 3
+    101164: spine.001 4
+    101166: spine.002
+    101168: spine.002 1
+    101170: spine.002 2
+    101172: spine.002 3
+    101174: spine.002 4
+    101176: spine.003
+    101178: spine.003 1
+    101180: spine.003 2
+    101182: spine.003 3
+    101184: spine.003 4
+    101186: spine.004
+    101188: spine.004 1
+    101190: spine.004 2
+    101192: spine.004 3
+    101194: spine.004 4
+    101196: spine.005
+    101198: spine.005 1
+    101200: spine.005 2
+    101202: spine.005 3
+    101204: spine.005 4
+    101206: spine.006
+    101208: spine.006 1
+    101210: spine.006 2
+    101212: spine.006 3
+    101214: spine.006 4
+    101216: Staff
+    101218: Sword
+    101220: thigh.L
+    101222: thigh.L 1
+    101224: thigh.L 2
+    101226: thigh.L 3
+    101228: thigh.L 4
+    101230: thigh.R
+    101232: thigh.R 1
+    101234: thigh.R 2
+    101236: thigh.R 3
+    101238: thigh.R 4
+    101240: Thumb.L
+    101242: Thumb.L 1
+    101244: Thumb.L 2
+    101246: Thumb.L 3
+    101248: Thumb.L 4
+    101250: Thumb.L.001
+    101252: Thumb.L.001 1
+    101254: Thumb.L.001 2
+    101256: Thumb.L.001 3
+    101258: Thumb.L.001 4
+    101260: Thumb.L.001_end
+    101262: Thumb.L.001_end 1
+    101264: Thumb.L.001_end 2
+    101266: Thumb.L.001_end 3
+    101268: Thumb.L.001_end 4
+    101270: Thumb.R
+    101272: Thumb.R 1
+    101274: Thumb.R 2
+    101276: Thumb.R 3
+    101278: Thumb.R 4
+    101280: Thumb.R.001
+    101282: Thumb.R.001 1
+    101284: Thumb.R.001 2
+    101286: Thumb.R.001 3
+    101288: Thumb.R.001 4
+    101290: Thumb.R.001_end
+    101292: Thumb.R.001_end 1
+    101294: Thumb.R.001_end 2
+    101296: Thumb.R.001_end 3
+    101298: Thumb.R.001_end 4
+    101300: toe.L
+    101302: toe.L 1
+    101304: toe.L 2
+    101306: toe.L 3
+    101308: toe.L 4
+    101310: toe.L_end
+    101312: toe.L_end 1
+    101314: toe.L_end 2
+    101316: toe.L_end 3
+    101318: toe.L_end 4
+    101320: toe.R
+    101322: toe.R 1
+    101324: toe.R 2
+    101326: toe.R 3
+    101328: toe.R 4
+    101330: toe.R_end
+    101332: toe.R_end 1
+    101334: toe.R_end 2
+    101336: toe.R_end 3
+    101338: toe.R_end 4
+    101340: upper_arm.L
+    101342: upper_arm.L 1
+    101344: upper_arm.L 2
+    101346: upper_arm.L 3
+    101348: upper_arm.L 4
+    101350: upper_arm.R
+    101352: upper_arm.R 1
+    101354: upper_arm.R 2
+    101356: upper_arm.R 3
+    101358: upper_arm.R 4
+    101360: WarriorOrcRig
+    101362: WitchDoctorOrcRig
+    400000: Archer
+    400002: Archer.001
+    400004: Archer.002
+    400006: ArcherOrcRig
+    400008: ArmCloth
+    400010: ArmCloth_end
+    400012: ArmController.L
+    400014: ArmController.L 1
+    400016: ArmController.L 2
+    400018: ArmController.L 3
+    400020: ArmController.L 4
+    400022: ArmController.R
+    400024: ArmController.R 1
+    400026: ArmController.R 2
+    400028: ArmController.R 3
+    400030: ArmController.R 4
+    400032: ArmPole.L
+    400034: ArmPole.L 1
+    400036: ArmPole.L 2
+    400038: ArmPole.L 3
+    400040: ArmPole.L 4
+    400042: ArmPole.L_end
+    400044: ArmPole.L_end 1
+    400046: ArmPole.L_end 2
+    400048: ArmPole.L_end 3
+    400050: ArmPole.L_end 4
+    400052: ArmPole.R
+    400054: ArmPole.R 1
+    400056: ArmPole.R 2
+    400058: ArmPole.R 3
+    400060: ArmPole.R 4
+    400062: ArmPole.R_end
+    400064: ArmPole.R_end 1
+    400066: ArmPole.R_end 2
+    400068: ArmPole.R_end 3
+    400070: ArmPole.R_end 4
+    400072: ArrowCase
+    400074: ArrowCase_end
+    400076: BaseOrcRig
+    400078: Beard
+    400080: Beard_end
+    400082: Belt
+    400084: Belt.001
+    400086: Belt.002
+    400088: Belt.003
+    400090: Bow
+    400092: breast.L
+    400094: breast.L 1
+    400096: breast.L 2
+    400098: breast.L 3
+    400100: breast.L 4
+    400102: breast.L_end
+    400104: breast.L_end 1
+    400106: breast.L_end 2
+    400108: breast.L_end 3
+    400110: breast.L_end 4
+    400112: breast.R
+    400114: breast.R 1
+    400116: breast.R 2
+    400118: breast.R 3
+    400120: breast.R 4
+    400122: breast.R_end
+    400124: breast.R_end 1
+    400126: breast.R_end 2
+    400128: breast.R_end 3
+    400130: breast.R_end 4
+    400132: Cape
+    400134: Cape.001
+    400136: Cape.002
+    400138: Cape.003
+    400140: Cape.003_end
+    400142: Cape.L
+    400144: Cape.L.001
+    400146: Cape.L.002
+    400148: Cape.L.003
+    400150: Cape.L.003_end
+    400152: Cape.R
+    400154: Cape.R.001
+    400156: Cape.R.002
+    400158: Cape.R.003
+    400160: Cape.R.003_end
+    400162: ChestPiece
+    400164: ChestPiece_end
+    400166: Club
+    400168: Cube.001
+    400170: Cube.002
+    400172: Cube.003
+    400174: Cylinder
+    400176: Cylinder.001
+    400178: Cylinder.006
+    400180: Ear.L
+    400182: Ear.L 1
+    400184: Ear.L 2
+    400186: Ear.L 3
+    400188: Ear.L_end
+    400190: Ear.L_end 1
+    400192: Ear.L_end 2
+    400194: Ear.L_end 3
+    400196: Ear.R
+    400198: Ear.R 1
+    400200: Ear.R 2
+    400202: Ear.R 3
+    400204: Ear.R_end
+    400206: Ear.R_end 1
+    400208: Ear.R_end 2
+    400210: Ear.R_end 3
+    400212: Eye.L
+    400214: Eye.L 1
+    400216: Eye.L 2
+    400218: Eye.L 3
+    400220: Eye.L 4
+    400222: Eye.L 5
+    400224: Eye.L_end
+    400226: Eye.L_end 1
+    400228: Eye.L_end 2
+    400230: Eye.L_end 3
+    400232: Eye.L_end 4
+    400234: Eye.R
+    400236: Eye.R 1
+    400238: Eye.R 2
+    400240: Eye.R 3
+    400242: Eye.R 4
+    400244: Eye.R 5
+    400246: Eye.R_end
+    400248: Eye.R_end 1
+    400250: Eye.R_end 2
+    400252: Eye.R_end 3
+    400254: Eye.R_end 4
+    400256: EyeController.L
+    400258: EyeController.L 1
+    400260: EyeController.L 2
+    400262: EyeController.L 3
+    400264: EyeController.L 4
+    400266: EyeController.L_end
+    400268: EyeController.L_end 1
+    400270: EyeController.L_end 2
+    400272: EyeController.L_end 3
+    400274: EyeController.L_end 4
+    400276: EyeController.R
+    400278: EyeController.R 1
+    400280: EyeController.R 2
+    400282: EyeController.R 3
+    400284: EyeController.R 4
+    400286: EyeController.R_end
+    400288: EyeController.R_end 1
+    400290: EyeController.R_end 2
+    400292: EyeController.R_end 3
+    400294: EyeController.R_end 4
+    400296: Eyes
+    400298: Eyes.001
+    400300: EyesController
+    400302: EyesController 1
+    400304: EyesController 2
+    400306: EyesController 3
+    400308: EyesController 4
+    400310: FighterOrcRig
+    400312: foot.L
+    400314: foot.L 1
+    400316: foot.L 2
+    400318: foot.L 3
+    400320: foot.L 4
+    400322: foot.R
+    400324: foot.R 1
+    400326: foot.R 2
+    400328: foot.R 3
+    400330: foot.R 4
+    400332: forearm.L
+    400334: forearm.L 1
+    400336: forearm.L 2
+    400338: forearm.L 3
+    400340: forearm.L 4
+    400342: forearm.R
+    400344: forearm.R 1
+    400346: forearm.R 2
+    400348: forearm.R 3
+    400350: forearm.R 4
+    400352: Hair
+    400354: Hair.001
+    400356: Hair.002
+    400358: Hair.003
+    400360: Hair.003_end
+    400362: hand.L
+    400364: hand.L 1
+    400366: hand.L 2
+    400368: hand.L 3
+    400370: hand.L 4
+    400372: hand.L.001
+    400374: hand.L.001 1
+    400376: hand.L.001 2
+    400378: hand.L.001 3
+    400380: hand.L.001 4
+    400382: hand.L.002
+    400384: hand.L.002 1
+    400386: hand.L.002 2
+    400388: hand.L.002 3
+    400390: hand.L.002 4
+    400392: hand.L.003
+    400394: hand.L.003 1
+    400396: hand.L.003 2
+    400398: hand.L.003 3
+    400400: hand.L.003 4
+    400402: hand.L.004
+    400404: hand.L.004 1
+    400406: hand.L.004 2
+    400408: hand.L.004 3
+    400410: hand.L.004 4
+    400412: hand.L.005
+    400414: hand.L.005 1
+    400416: hand.L.005 2
+    400418: hand.L.005 3
+    400420: hand.L.005 4
+    400422: hand.R
+    400424: hand.R 1
+    400426: hand.R 2
+    400428: hand.R 3
+    400430: hand.R 4
+    400432: hand.R.001
+    400434: hand.R.001 1
+    400436: hand.R.001 2
+    400438: hand.R.001 3
+    400440: hand.R.001 4
+    400442: hand.R.002
+    400444: hand.R.002 1
+    400446: hand.R.002 2
+    400448: hand.R.002 3
+    400450: hand.R.002 4
+    400452: hand.R.003
+    400454: hand.R.003 1
+    400456: hand.R.003 2
+    400458: hand.R.003 3
+    400460: hand.R.003 4
+    400462: hand.R.004
+    400464: hand.R.004 1
+    400466: hand.R.004 2
+    400468: hand.R.004 3
+    400470: hand.R.004 4
+    400472: hand.R.005
+    400474: hand.R.005 1
+    400476: hand.R.005 2
+    400478: hand.R.005 3
+    400480: hand.R.005 4
+    400482: HandPlate.L
+    400484: HandPlate.R
+    400486: heel.02.L
+    400488: heel.02.L 1
+    400490: heel.02.L 2
+    400492: heel.02.L 3
+    400494: heel.02.L 4
+    400496: heel.02.L_end
+    400498: heel.02.L_end 1
+    400500: heel.02.L_end 2
+    400502: heel.02.L_end 3
+    400504: heel.02.L_end 4
+    400506: heel.02.R
+    400508: heel.02.R 1
+    400510: heel.02.R 2
+    400512: heel.02.R 3
+    400514: heel.02.R 4
+    400516: heel.02.R_end
+    400518: heel.02.R_end 1
+    400520: heel.02.R_end 2
+    400522: heel.02.R_end 3
+    400524: heel.02.R_end 4
+    400526: Helmet
+    400528: Helmet_end
+    400530: Index.L
+    400532: Index.L 1
+    400534: Index.L 2
+    400536: Index.L 3
+    400538: Index.L 4
+    400540: Index.L.001
+    400542: Index.L.001 1
+    400544: Index.L.001 2
+    400546: Index.L.001 3
+    400548: Index.L.001 4
+    400550: Index.L.001_end
+    400552: Index.L.001_end 1
+    400554: Index.L.001_end 2
+    400556: Index.L.001_end 3
+    400558: Index.L.001_end 4
+    400560: Index.R
+    400562: Index.R 1
+    400564: Index.R 2
+    400566: Index.R 3
+    400568: Index.R 4
+    400570: Index.R.001
+    400572: Index.R.001 1
+    400574: Index.R.001 2
+    400576: Index.R.001 3
+    400578: Index.R.001 4
+    400580: Index.R.001_end
+    400582: Index.R.001_end 1
+    400584: Index.R.001_end 2
+    400586: Index.R.001_end 3
+    400588: Index.R.001_end 4
+    400590: KneePad
+    400592: KneePad.001
+    400594: KneePad.L
+    400596: KneePad.L 1
+    400598: KneePad.L_end
+    400600: KneePad.L_end 1
+    400602: KneePad.R
+    400604: KneePad.R 1
+    400606: KneePad.R_end
+    400608: KneePad.R_end 1
+    400610: LegController.L
+    400612: LegController.L 1
+    400614: LegController.L 2
+    400616: LegController.L 3
+    400618: LegController.L 4
+    400620: LegController.R
+    400622: LegController.R 1
+    400624: LegController.R 2
+    400626: LegController.R 3
+    400628: LegController.R 4
+    400630: LegPole.L
+    400632: LegPole.L 1
+    400634: LegPole.L 2
+    400636: LegPole.L 3
+    400638: LegPole.L 4
+    400640: LegPole.L_end
+    400642: LegPole.L_end 1
+    400644: LegPole.L_end 2
+    400646: LegPole.L_end 3
+    400648: LegPole.L_end 4
+    400650: LegPole.R
+    400652: LegPole.R 1
+    400654: LegPole.R 2
+    400656: LegPole.R 3
+    400658: LegPole.R 4
+    400660: LegPole.R_end
+    400662: LegPole.R_end 1
+    400664: LegPole.R_end 2
+    400666: LegPole.R_end 3
+    400668: LegPole.R_end 4
+    400670: Middle.L
+    400672: Middle.L 1
+    400674: Middle.L 2
+    400676: Middle.L 3
+    400678: Middle.L 4
+    400680: Middle.L.001
+    400682: Middle.L.001 1
+    400684: Middle.L.001 2
+    400686: Middle.L.001 3
+    400688: Middle.L.001 4
+    400690: Middle.L.001_end
+    400692: Middle.L.001_end 1
+    400694: Middle.L.001_end 2
+    400696: Middle.L.001_end 3
+    400698: Middle.L.001_end 4
+    400700: Middle.R
+    400702: Middle.R 1
+    400704: Middle.R 2
+    400706: Middle.R 3
+    400708: Middle.R 4
+    400710: Middle.R.001
+    400712: Middle.R.001 1
+    400714: Middle.R.001 2
+    400716: Middle.R.001 3
+    400718: Middle.R.001 4
+    400720: Middle.R.001_end
+    400722: Middle.R.001_end 1
+    400724: Middle.R.001_end 2
+    400726: Middle.R.001_end 3
+    400728: Middle.R.001_end 4
+    400730: //RootNode
+    400732: pelvis.L
+    400734: pelvis.L 1
+    400736: pelvis.L 2
+    400738: pelvis.L 3
+    400740: pelvis.L 4
+    400742: pelvis.L_end
+    400744: pelvis.L_end 1
+    400746: pelvis.L_end 2
+    400748: pelvis.L_end 3
+    400750: pelvis.L_end 4
+    400752: pelvis.R
+    400754: pelvis.R 1
+    400756: pelvis.R 2
+    400758: pelvis.R 3
+    400760: pelvis.R 4
+    400762: pelvis.R_end
+    400764: pelvis.R_end 1
+    400766: pelvis.R_end 2
+    400768: pelvis.R_end 3
+    400770: pelvis.R_end 4
+    400772: Pinky.L
+    400774: Pinky.L 1
+    400776: Pinky.L 2
+    400778: Pinky.L 3
+    400780: Pinky.L 4
+    400782: Pinky.L.001
+    400784: Pinky.L.001 1
+    400786: Pinky.L.001 2
+    400788: Pinky.L.001 3
+    400790: Pinky.L.001 4
+    400792: Pinky.L.001_end
+    400794: Pinky.L.001_end 1
+    400796: Pinky.L.001_end 2
+    400798: Pinky.L.001_end 3
+    400800: Pinky.L.001_end 4
+    400802: Pinky.R
+    400804: Pinky.R 1
+    400806: Pinky.R 2
+    400808: Pinky.R 3
+    400810: Pinky.R 4
+    400812: Pinky.R.001
+    400814: Pinky.R.001 1
+    400816: Pinky.R.001 2
+    400818: Pinky.R.001 3
+    400820: Pinky.R.001 4
+    400822: Pinky.R.001_end
+    400824: Pinky.R.001_end 1
+    400826: Pinky.R.001_end 2
+    400828: Pinky.R.001_end 3
+    400830: Pinky.R.001_end 4
+    400832: Plane.003
+    400834: Plane.011
+    400836: Retopo
+    400838: Retopo.001
+    400840: Retopo.002
+    400842: Retopo.003
+    400844: Retopo.004
+    400846: Retopo.006
+    400848: Retopo.008
+    400850: Ring.L
+    400852: Ring.L 1
+    400854: Ring.L 2
+    400856: Ring.L 3
+    400858: Ring.L 4
+    400860: Ring.L.001
+    400862: Ring.L.001 1
+    400864: Ring.L.001 2
+    400866: Ring.L.001 3
+    400868: Ring.L.001 4
+    400870: Ring.L.001_end
+    400872: Ring.L.001_end 1
+    400874: Ring.L.001_end 2
+    400876: Ring.L.001_end 3
+    400878: Ring.L.001_end 4
+    400880: Ring.R
+    400882: Ring.R 1
+    400884: Ring.R 2
+    400886: Ring.R 3
+    400888: Ring.R 4
+    400890: Ring.R.001
+    400892: Ring.R.001 1
+    400894: Ring.R.001 2
+    400896: Ring.R.001 3
+    400898: Ring.R.001 4
+    400900: Ring.R.001_end
+    400902: Ring.R.001_end 1
+    400904: Ring.R.001_end 2
+    400906: Ring.R.001_end 3
+    400908: Ring.R.001_end 4
+    400910: Root
+    400912: Root 1
+    400914: Root 2
+    400916: Root 3
+    400918: Root 4
+    400920: Sc
+    400922: shin.L
+    400924: shin.L 1
+    400926: shin.L 2
+    400928: shin.L 3
+    400930: shin.L 4
+    400932: shin.R
+    400934: shin.R 1
+    400936: shin.R 2
+    400938: shin.R 3
+    400940: shin.R 4
+    400942: shoulder.L
+    400944: shoulder.L 1
+    400946: shoulder.L 2
+    400948: shoulder.L 3
+    400950: shoulder.L 4
+    400952: shoulder.R
+    400954: shoulder.R 1
+    400956: shoulder.R 2
+    400958: shoulder.R 3
+    400960: shoulder.R 4
+    400962: ShoulderPad.L
+    400964: ShoulderPad.L_end
+    400966: ShoulderPad.R
+    400968: ShoulderPad.R_end
+    400970: ShoulderPiece
+    400972: Skirt
+    400974: Skirt 1
+    400976: Skirt 2
+    400978: Skirt 3
+    400980: Skirt.001
+    400982: Skirt.001 1
+    400984: Skirt.001 2
+    400986: Skirt.001 3
+    400988: Skirt.001_end
+    400990: Skirt.001_end 1
+    400992: Skirt.002
+    400994: Skirt.002 1
+    400996: Skirt.002 2
+    400998: Skirt.002_end
+    401000: Skirt.003
+    401002: Skirt.003 1
+    401004: Skirt.003_end
+    401006: Skirt.003_end 1
+    401008: Skirt.004
+    401010: Skirt.004_end
+    401012: Skirt.L
+    401014: Skirt.L 1
+    401016: Skirt.L 2
+    401018: Skirt.L.001
+    401020: Skirt.L.001 1
+    401022: Skirt.L.001 2
+    401024: Skirt.L.001_end
+    401026: Skirt.L.001_end 1
+    401028: Skirt.L.001_end 2
+    401030: Skirt.L.002
+    401032: Skirt.L.002 1
+    401034: Skirt.L.003
+    401036: Skirt.L.003 1
+    401038: Skirt.L.003_end
+    401040: Skirt.L.003_end 1
+    401042: Skirt.L.004
+    401044: Skirt.L.005
+    401046: Skirt.L.005_end
+    401048: Skirt.L.006
+    401050: Skirt.L.007
+    401052: Skirt.L.007_end
+    401054: Skirt.L.008
+    401056: Skirt.L.009
+    401058: Skirt.L.009_end
+    401060: Skirt.R
+    401062: Skirt.R 1
+    401064: Skirt.R 2
+    401066: Skirt.R.001
+    401068: Skirt.R.001 1
+    401070: Skirt.R.001 2
+    401072: Skirt.R.001_end
+    401074: Skirt.R.001_end 1
+    401076: Skirt.R.001_end 2
+    401078: Skirt.R.002
+    401080: Skirt.R.002 1
+    401082: Skirt.R.003
+    401084: Skirt.R.003 1
+    401086: Skirt.R.003_end
+    401088: Skirt.R.003_end 1
+    401090: Skirt.R.004
+    401092: Skirt.R.005
+    401094: Skirt.R.005_end
+    401096: Skirt.R.006
+    401098: Skirt.R.007
+    401100: Skirt.R.007_end
+    401102: Skirt.R.008
+    401104: Skirt.R.009
+    401106: Skirt.R.009_end
+    401108: Sphere.001
+    401110: Sphere.002
+    401112: Sphere.004
+    401114: Sphere.017
+    401116: Sphere.020
+    401118: Sphere.023
+    401120: Sphere.024
+    401122: Spikes.L
+    401124: Spikes.L.001
+    401126: Spikes.L.001_end
+    401128: Spikes.L.002
+    401130: Spikes.L.002_end
+    401132: Spikes.L_end
+    401134: Spikes.R
+    401136: Spikes.R.001
+    401138: Spikes.R.001_end
+    401140: Spikes.R.002
+    401142: Spikes.R.002_end
+    401144: Spikes.R_end
+    401146: spine
+    401148: spine 1
+    401150: spine 2
+    401152: spine 3
+    401154: spine 4
+    401156: spine.001
+    401158: spine.001 1
+    401160: spine.001 2
+    401162: spine.001 3
+    401164: spine.001 4
+    401166: spine.002
+    401168: spine.002 1
+    401170: spine.002 2
+    401172: spine.002 3
+    401174: spine.002 4
+    401176: spine.003
+    401178: spine.003 1
+    401180: spine.003 2
+    401182: spine.003 3
+    401184: spine.003 4
+    401186: spine.004
+    401188: spine.004 1
+    401190: spine.004 2
+    401192: spine.004 3
+    401194: spine.004 4
+    401196: spine.005
+    401198: spine.005 1
+    401200: spine.005 2
+    401202: spine.005 3
+    401204: spine.005 4
+    401206: spine.006
+    401208: spine.006 1
+    401210: spine.006 2
+    401212: spine.006 3
+    401214: spine.006 4
+    401216: Staff
+    401218: Sword
+    401220: thigh.L
+    401222: thigh.L 1
+    401224: thigh.L 2
+    401226: thigh.L 3
+    401228: thigh.L 4
+    401230: thigh.R
+    401232: thigh.R 1
+    401234: thigh.R 2
+    401236: thigh.R 3
+    401238: thigh.R 4
+    401240: Thumb.L
+    401242: Thumb.L 1
+    401244: Thumb.L 2
+    401246: Thumb.L 3
+    401248: Thumb.L 4
+    401250: Thumb.L.001
+    401252: Thumb.L.001 1
+    401254: Thumb.L.001 2
+    401256: Thumb.L.001 3
+    401258: Thumb.L.001 4
+    401260: Thumb.L.001_end
+    401262: Thumb.L.001_end 1
+    401264: Thumb.L.001_end 2
+    401266: Thumb.L.001_end 3
+    401268: Thumb.L.001_end 4
+    401270: Thumb.R
+    401272: Thumb.R 1
+    401274: Thumb.R 2
+    401276: Thumb.R 3
+    401278: Thumb.R 4
+    401280: Thumb.R.001
+    401282: Thumb.R.001 1
+    401284: Thumb.R.001 2
+    401286: Thumb.R.001 3
+    401288: Thumb.R.001 4
+    401290: Thumb.R.001_end
+    401292: Thumb.R.001_end 1
+    401294: Thumb.R.001_end 2
+    401296: Thumb.R.001_end 3
+    401298: Thumb.R.001_end 4
+    401300: toe.L
+    401302: toe.L 1
+    401304: toe.L 2
+    401306: toe.L 3
+    401308: toe.L 4
+    401310: toe.L_end
+    401312: toe.L_end 1
+    401314: toe.L_end 2
+    401316: toe.L_end 3
+    401318: toe.L_end 4
+    401320: toe.R
+    401322: toe.R 1
+    401324: toe.R 2
+    401326: toe.R 3
+    401328: toe.R 4
+    401330: toe.R_end
+    401332: toe.R_end 1
+    401334: toe.R_end 2
+    401336: toe.R_end 3
+    401338: toe.R_end 4
+    401340: upper_arm.L
+    401342: upper_arm.L 1
+    401344: upper_arm.L 2
+    401346: upper_arm.L 3
+    401348: upper_arm.L 4
+    401350: upper_arm.R
+    401352: upper_arm.R 1
+    401354: upper_arm.R 2
+    401356: upper_arm.R 3
+    401358: upper_arm.R 4
+    401360: WarriorOrcRig
+    401362: WitchDoctorOrcRig
+    2100000: Orc_Mat
+    2100002: OrcParts_Mat
+    2100004: OrcEyes_Mat
+    2100006: FighterEyes_Mat
+    2100008: FighterParts_Mat
+    2100010: Weapons_Mat
+    2100012: Fighter_Mat
+    2100014: No Name
+    2100016: ArcherParts_Mat
+    2100018: Archer_Mat
+    2100020: ArcherEyes_Mat
+    2100022: WitchDoctor_Mat
+    2100024: WitchDoctorParts_Mat
+    2100026: WitchDoctorEyes_Mat
+    2100028: StaffOrb
+    2100030: WarriorParts_Mat
+    2100032: Warrior_Mat
+    2100034: WarriorEyes_Mat
+    2300000: Club
+    2300002: Cube.001
+    2300004: Cube.002
+    2300006: Cube.003
+    2300008: Cylinder.001
+    2300010: Cylinder.006
+    2300012: Eye.L 5
+    2300014: Eye.R 5
+    2300016: Eyes
+    2300018: Eyes.001
+    2300020: KneePad
+    2300022: KneePad.001
+    2300024: Retopo.001
+    2300026: Sc
+    2300028: ShoulderPiece
+    2300030: Sphere.001
+    2300032: Sphere.002
+    2300034: Sphere.004
+    2300036: Sphere.017
+    2300038: Sphere.020
+    2300040: Sphere.024
+    2300042: Archer.002
+    3300000: Club
+    3300002: Cube.001
+    3300004: Cube.002
+    3300006: Cube.003
+    3300008: Cylinder.001
+    3300010: Cylinder.006
+    3300012: Eye.L 5
+    3300014: Eye.R 5
+    3300016: Eyes
+    3300018: Eyes.001
+    3300020: KneePad
+    3300022: KneePad.001
+    3300024: Retopo.001
+    3300026: Sc
+    3300028: ShoulderPiece
+    3300030: Sphere.001
+    3300032: Sphere.002
+    3300034: Sphere.004
+    3300036: Sphere.017
+    3300038: Sphere.020
+    3300040: Sphere.024
+    3300042: Archer.002
+    4300000: Retopo
+    4300002: Plane.003
+    4300004: Eye.L
+    4300006: Eye.R
+    4300008: Sphere.002
+    4300010: Sphere.017
+    4300012: Sphere.001
+    4300014: Retopo.001
+    4300016: Cube.003
+    4300018: Cube.001
+    4300020: Club
+    4300022: Retopo.006
+    4300024: Retopo.002
+    4300026: Sc
+    4300028: Plane.011
+    4300030: Archer
+    4300032: Sphere.024
+    4300034: Sphere.020
+    4300036: Archer.002
+    4300038: Cube.002
+    4300040: Cylinder.006
+    4300042: Archer.001
+    4300044: Bow
+    4300046: Retopo.008
+    4300048: Cylinder
+    4300050: Sphere.004
+    4300052: Sphere.023
+    4300054: Cylinder.001
+    4300056: Retopo.003
+    4300058: Retopo.004
+    4300060: Staff
+    4300062: Belt
+    4300064: Eyes.001
+    4300066: Eyes
+    4300068: ShoulderPiece
+    4300070: KneePad.001
+    4300072: KneePad
+    4300074: Belt.001
+    4300076: Belt.002
+    4300078: Belt.003
+    4300080: Sword
+    9500000: //RootNode
+    13700000: Archer
+    13700002: Archer.001
+    13700004: Archer.002
+    13700006: Belt
+    13700008: Belt.001
+    13700010: Belt.002
+    13700012: Belt.003
+    13700014: Bow
+    13700016: Cylinder
+    13700018: Plane.003
+    13700020: Plane.011
+    13700022: Retopo
+    13700024: Retopo.002
+    13700026: Retopo.003
+    13700028: Retopo.004
+    13700030: Retopo.006
+    13700032: Retopo.008
+    13700034: Sphere.023
+    13700036: Staff
+    13700038: Sword
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0018
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 0.0018
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: spine
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine.001
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine.002
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine.005
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine.006
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Eye.L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Eye.R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thumb.L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thumb.L.001
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Index.L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Index.L.001
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Middle.L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Middle.L.001
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ring.L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ring.L.001
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pinky.L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pinky.L.001
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thumb.R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thumb.R.001
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Index.R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Index.R.001
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Middle.R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Middle.R.001
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ring.R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ring.R.001
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pinky.R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pinky.R.001
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine.003
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: OrcArcher(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Plane.011
+      parentName: OrcArcher(Clone)
+      position: {x: 0.005140164, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Archer
+      parentName: OrcArcher(Clone)
+      position: {x: 0.005140164, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: ArcherOrcRig
+      parentName: OrcArcher(Clone)
+      position: {x: 0.005140164, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Root
+      parentName: ArcherOrcRig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0.000000029631511, z: -0.00000000178962, w: 0.7071067}
+      scale: {x: 1, y: 0.99999976, z: 0.99999976}
+    - name: spine
+      parentName: Root
+      position: {x: -5.8070385e-21, y: 0.008165238, z: -0.0010063933}
+      rotation: {x: 0.2752465, y: -0.00000026988616, z: -0.00000005143489, w: 0.9613737}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine.001
+      parentName: spine
+      position: {x: -9.4330354e-17, y: 0.0019708353, z: -1.978129e-10}
+      rotation: {x: -0.23839666, y: 0.000000371012, z: 0.000000008530893, w: 0.97116786}
+      scale: {x: 1, y: 0.9999993, z: 0.9999993}
+    - name: spine.002
+      parentName: spine.001
+      position: {x: 1.5981404e-17, y: 0.002358125, z: 0}
+      rotation: {x: -0.076621756, y: -0.00000011266434, z: 0.000000013296759, w: 0.9970603}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: spine.003
+      parentName: spine.002
+      position: {x: 5.3363076e-24, y: 0.0024783977, z: 6.705522e-11}
+      rotation: {x: -0.15059164, y: -0.000000155908, z: -0.000000027607946, w: 0.9885961}
+      scale: {x: 1, y: 1.000001, z: 1.000001}
+    - name: spine.004
+      parentName: spine.003
+      position: {x: 2.2652885e-17, y: 0.0033329735, z: 0}
+      rotation: {x: 0.51591235, y: 0.0000012786401, z: 0.00000065040865, w: 0.85664135}
+      scale: {x: 1, y: 1.000001, z: 1.0000005}
+    - name: spine.005
+      parentName: spine.004
+      position: {x: -2.6404823e-15, y: 0.00092518434, z: -7.510185e-10}
+      rotation: {x: -0.2433751, y: -0.0000009156758, z: -0.00000040766466, w: 0.9699323}
+      scale: {x: 1, y: 1.0000005, z: 0.9999993}
+    - name: spine.006
+      parentName: spine.005
+      position: {x: 7.6743104e-17, y: 0.00084903085, z: -5.364418e-11}
+      rotation: {x: -0.09381242, y: -0.00000046146903, z: -0.000000027738391, w: 0.99559}
+      scale: {x: 1, y: 1.000001, z: 1.0000001}
+    - name: Eye.L
+      parentName: spine.006
+      position: {x: -0.0008327127, y: 0.0005633127, z: 0.0022652375}
+      rotation: {x: 0.69645095, y: -0.00002391962, z: -0.000023290242, w: 0.71760434}
+      scale: {x: 1, y: 1.0000007, z: 1.000001}
+    - name: Sphere.024
+      parentName: Eye.L
+      position: {x: 0.0000028621316, y: -0.0000012892842, z: 0.0000026281416}
+      rotation: {x: 1, y: 0.0000000023865718, z: -0.000033387987, w: 0.00000019470727}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Eye.L_end
+      parentName: Eye.L
+      position: {x: -0, y: 0.0013083579, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ear.L
+      parentName: spine.006
+      position: {x: -0.0016243352, y: 0.00052601565, z: 0.0010675892}
+      rotation: {x: 0.26706508, y: -0.53697634, z: 0.7654353, w: 0.23332712}
+      scale: {x: 0.9999999, y: 0.9999993, z: 1.0000011}
+    - name: Ear.L_end
+      parentName: Ear.L
+      position: {x: -0, y: 0.002057181, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EyesController
+      parentName: spine.006
+      position: {x: -0.000005008901, y: 0.00045564282, z: 0.0058145938}
+      rotation: {x: -0.028124487, y: -0.000026598296, z: 0.00000075785096, w: 0.9996044}
+      scale: {x: 1, y: 0.999999, z: 0.9999986}
+    - name: EyeController.L
+      parentName: EyesController
+      position: {x: -0.0008277034, y: 0.00019705393, z: -0.000008757734}
+      rotation: {x: 0.00000011548397, y: -0.00000004020875, z: -0.000000013111443,
+        w: 1}
+      scale: {x: 1, y: 0.9999996, z: 1.0000001}
+    - name: EyeController.L_end
+      parentName: EyeController.L
+      position: {x: -0, y: 0.0012360866, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EyeController.R
+      parentName: EyesController
+      position: {x: 0.0008377231, y: 0.00019705392, z: -0.0000088462475}
+      rotation: {x: 0.00000011548397, y: 0.000053365053, z: -0.000000024999958, w: 1}
+      scale: {x: 1, y: 0.9999996, z: 1.0000001}
+    - name: EyeController.R_end
+      parentName: EyeController.R
+      position: {x: -0, y: 0.0012360866, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye.R
+      parentName: spine.006
+      position: {x: 0.0008327138, y: 0.0005633127, z: 0.0022652368}
+      rotation: {x: 0.69645095, y: 0.000023992954, z: 0.000023211098, w: 0.71760434}
+      scale: {x: 1, y: 1.0000007, z: 1.000001}
+    - name: Sphere.020
+      parentName: Eye.R
+      position: {x: -0.0000028620243, y: -0.0000012890696, z: 0.000002628137}
+      rotation: {x: 1, y: 0.0000000023750875, z: 0.000033388827, w: 0.00000019470711}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Eye.R_end
+      parentName: Eye.R
+      position: {x: -0, y: 0.0013083579, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ear.R
+      parentName: spine.006
+      position: {x: 0.0016243355, y: 0.00052601565, z: 0.0010675882}
+      rotation: {x: -0.2670651, y: -0.5369764, z: 0.7654353, w: -0.23332694}
+      scale: {x: 1.0000036, y: 1.0000024, z: 1.0000023}
+    - name: Ear.R_end
+      parentName: Ear.R
+      position: {x: -0, y: 0.002057181, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hair
+      parentName: spine.006
+      position: {x: -2.8749933e-11, y: 0.003045711, z: -0.00012058616}
+      rotation: {x: -0.22730431, y: -0.00000002982915, z: 0.000000033343206, w: 0.97382385}
+      scale: {x: 1, y: 1.0000004, z: 0.99999845}
+    - name: Hair.001
+      parentName: Hair
+      position: {x: -5.1113045e-17, y: 0.00045647915, z: -1.0728836e-10}
+      rotation: {x: -0.12139456, y: -0.000000009422805, z: 0.000000011792298, w: 0.9926043}
+      scale: {x: 1, y: 1.0000019, z: 0.9999997}
+    - name: Hair.002
+      parentName: Hair.001
+      position: {x: -3.3276163e-16, y: 0.000880739, z: 5.364418e-10}
+      rotation: {x: -0.50269777, y: -0.000000021674158, z: 0.00000014241792, w: 0.8644623}
+      scale: {x: 1, y: 1.0000032, z: 0.9999981}
+    - name: Hair.003
+      parentName: Hair.002
+      position: {x: -3.0334974e-16, y: 0.0010803203, z: -0.0000000023066997}
+      rotation: {x: 0.53606606, y: -0.0000000087707726, z: -0.00000015547396, w: -0.8441761}
+      scale: {x: 1, y: 1.0000024, z: 1.0000012}
+    - name: Hair.003_end
+      parentName: Hair.003
+      position: {x: -0, y: 0.0011990148, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder.L
+      parentName: spine.003
+      position: {x: -0.00019058373, y: 0.0012585039, z: 0.000565789}
+      rotation: {x: -0.44703358, y: 0.31486192, z: 0.4134714, w: 0.72805524}
+      scale: {x: 1.0000005, y: 1.000001, z: 1.0000013}
+    - name: upper_arm.L
+      parentName: shoulder.L
+      position: {x: -0.00062416826, y: 0.0040701963, z: -0.00024668357}
+      rotation: {x: 0.12090969, y: -0.7030789, z: 0.21310948, w: 0.66756666}
+      scale: {x: 1.0000033, y: 1.0000029, z: 1.0000004}
+    - name: forearm.L
+      parentName: upper_arm.L
+      position: {x: 5.8338046e-10, y: 0.004646575, z: 0}
+      rotation: {x: 0.035952326, y: -0.020411996, z: -0.031789478, w: 0.9986392}
+      scale: {x: 1.0000017, y: 1.0000021, z: 0.999999}
+    - name: hand.L
+      parentName: forearm.L
+      position: {x: 0.0000000014550984, y: 0.0036786105, z: -6.437302e-10}
+      rotation: {x: 0.13931976, y: -0.009823242, z: -0.06638604, w: 0.9879709}
+      scale: {x: 1.0000001, y: 1.0000021, z: 1.0000001}
+    - name: hand.L.001
+      parentName: hand.L
+      position: {x: -0.00017633186, y: 0.0021606558, z: 0.0010545888}
+      rotation: {x: 0.06838178, y: 0.0034685866, z: -0.06332022, w: 0.99564177}
+      scale: {x: 1.0000021, y: 1.0000015, z: 0.99999887}
+    - name: Index.L
+      parentName: hand.L.001
+      position: {x: -7.510185e-10, y: 0.0021099574, z: 0}
+      rotation: {x: 0.012519056, y: -0.019705957, z: 0.104765505, w: 0.99422294}
+      scale: {x: 1.000001, y: 1.000001, z: 0.99999976}
+    - name: Index.L.001
+      parentName: Index.L
+      position: {x: 7.376075e-10, y: 0.0018438429, z: 6.437302e-10}
+      rotation: {x: 0.009263434, y: -0.0020143955, z: 0.039475705, w: 0.99917555}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1}
+    - name: Index.L.001_end
+      parentName: Index.L.001
+      position: {x: -0, y: 0.0010335959, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand.L.002
+      parentName: hand.L
+      position: {x: 0.0001547139, y: 0.0024001868, z: 0.00032900448}
+      rotation: {x: 0.012563896, y: 0.00764228, z: -0.029865157, w: 0.99944586}
+      scale: {x: 1.0000055, y: 1.0000045, z: 1.0000007}
+    - name: Middle.L
+      parentName: hand.L.002
+      position: {x: -9.655953e-10, y: 0.0021099576, z: 4.2915344e-10}
+      rotation: {x: -0.0038058744, y: 0.0060067764, z: 0.07392546, w: 0.9972384}
+      scale: {x: 1.0000012, y: 1.0000014, z: 1.0000011}
+    - name: Middle.L.001
+      parentName: Middle.L
+      position: {x: -1.3411044e-10, y: 0.002034196, z: -4.2915344e-10}
+      rotation: {x: -0.005337406, y: 0.025556514, z: 0.03657707, w: 0.99898976}
+      scale: {x: 1.0000046, y: 1.0000049, z: 0.99999994}
+    - name: Middle.L.001_end
+      parentName: Middle.L.001
+      position: {x: -0, y: 0.00086565316, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand.L.003
+      parentName: hand.L
+      position: {x: 0.0003114329, y: 0.0025990743, z: -0.00038887825}
+      rotation: {x: -0.07386974, y: 0.014608861, z: 0.025699664, w: 0.9968296}
+      scale: {x: 1.0000032, y: 1.0000006, z: 1.0000011}
+    - name: Ring.L
+      parentName: hand.L.003
+      position: {x: 9.1195107e-10, y: 0.001974148, z: -4.2915344e-10}
+      rotation: {x: 0.051431157, y: 0.0010872411, z: -0.012123107, w: 0.99860233}
+      scale: {x: 1.0000011, y: 1.0000023, z: 1.0000001}
+    - name: Ring.L.001
+      parentName: Ring.L
+      position: {x: 0.0000000010997057, y: 0.0013559087, z: -4.2915344e-10}
+      rotation: {x: -0.0008245258, y: -0.003657191, z: 0.04097948, w: 0.99915296}
+      scale: {x: 1.0000012, y: 1.0000008, z: 1.0000005}
+    - name: Ring.L.001_end
+      parentName: Ring.L.001
+      position: {x: -0, y: 0.0010886522, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand.L.004
+      parentName: hand.L
+      position: {x: 0.00022024932, y: 0.0024296981, z: -0.0010851069}
+      rotation: {x: -0.12746374, y: 0.012604993, z: 0.018192004, w: 0.9915963}
+      scale: {x: 1.0000023, y: 0.9999992, z: 1.0000025}
+    - name: Pinky.L
+      parentName: hand.L.004
+      position: {x: -5.364418e-10, y: 0.0016171054, z: -2.1457672e-10}
+      rotation: {x: 0.10659921, y: 0.013147514, z: -0.0103319865, w: 0.9941615}
+      scale: {x: 1.000003, y: 1.0000033, z: 1.0000021}
+    - name: Pinky.L.001
+      parentName: Pinky.L
+      position: {x: -0.0000000014081597, y: 0.0010327764, z: -2.1457672e-10}
+      rotation: {x: 0.0005406883, y: -0.0005987097, z: 0.039893225, w: 0.9992036}
+      scale: {x: 1.0000055, y: 1.0000046, z: 0.99999887}
+    - name: Pinky.L.001_end
+      parentName: Pinky.L.001
+      position: {x: -0, y: 0.0010643027, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand.L.005
+      parentName: hand.L
+      position: {x: -0.00045705598, y: 0.0013178634, z: 0.0013940395}
+      rotation: {x: 0.33803385, y: -0.0339807, z: 0.21548893, w: 0.91550153}
+      scale: {x: 1.0000017, y: 1.000005, z: 0.9999955}
+    - name: Thumb.L
+      parentName: hand.L.005
+      position: {x: 0.0000000017702579, y: 0.001356581, z: -7.510185e-10}
+      rotation: {x: 0.058969975, y: -0.018682975, z: -0.20611858, w: 0.9765699}
+      scale: {x: 1.0000039, y: 1.0000012, z: 1.0000036}
+    - name: Thumb.L.001
+      parentName: Thumb.L
+      position: {x: 5.364418e-11, y: 0.0010572115, z: 9.655953e-10}
+      rotation: {x: -0.024438072, y: 0.0096497405, z: 0.028230073, w: 0.9992561}
+      scale: {x: 0.9999986, y: 0.9999976, z: 1.0000007}
+    - name: Thumb.L.001_end
+      parentName: Thumb.L.001
+      position: {x: -0, y: 0.001002997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ArmCloth
+      parentName: upper_arm.L
+      position: {x: 0.00011872066, y: 0.002664157, z: -0.0021850655}
+      rotation: {x: -0.45257702, y: 0.44403479, z: -0.41685125, w: 0.65133876}
+      scale: {x: 0.99999976, y: 1.0000019, z: 1.0000011}
+    - name: Archer.002
+      parentName: ArmCloth
+      position: {x: -0.009521391, y: -0.0051455335, z: -0.012186646}
+      rotation: {x: -0.04202669, y: 0.4740041, z: -0.066324875, w: 0.87701476}
+      scale: {x: 1.0000001, y: 0.9999994, z: 1.0000001}
+    - name: ArmCloth_end
+      parentName: ArmCloth
+      position: {x: -0, y: 0.0017662809, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: breast.L
+      parentName: spine.003
+      position: {x: -0.0023922331, y: 0.0003300897, z: -0.0002914216}
+      rotation: {x: 0.00000004411694, y: 0.56106025, z: 0.82777494, w: -0.00000006507138}
+      scale: {x: 1.0000013, y: 0.9999995, z: 0.99999976}
+    - name: breast.L_end
+      parentName: breast.L
+      position: {x: -0, y: 0.0014496872, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder.R
+      parentName: spine.003
+      position: {x: 0.00019058399, y: 0.0012585039, z: 0.000565789}
+      rotation: {x: -0.44703382, y: -0.31486177, z: -0.41347092, w: 0.72805536}
+      scale: {x: 1.0000002, y: 1.0000012, z: 1.0000014}
+    - name: upper_arm.R
+      parentName: shoulder.R
+      position: {x: 0.0006241687, y: 0.0040701963, z: -0.00024668357}
+      rotation: {x: -0.12090969, y: -0.70307904, z: 0.21310996, w: -0.6675663}
+      scale: {x: 1.0000035, y: 1.000003, z: 1.0000007}
+    - name: forearm.R
+      parentName: upper_arm.R
+      position: {x: -0.0000000023066997, y: 0.0046465714, z: -2.1457672e-10}
+      rotation: {x: 0.035952255, y: 0.020411849, z: 0.03178996, w: 0.9986392}
+      scale: {x: 1.0000023, y: 1.0000029, z: 0.9999991}
+    - name: hand.R
+      parentName: forearm.R
+      position: {x: 0.0000000012673438, y: 0.00367861, z: -1.0728836e-10}
+      rotation: {x: -0.1393197, y: -0.009823174, z: -0.066385135, w: -0.98797095}
+      scale: {x: 1.0000005, y: 1.000003, z: 0.99999976}
+    - name: hand.R.001
+      parentName: hand.R
+      position: {x: 0.00017633219, y: 0.0021606567, z: 0.001054589}
+      rotation: {x: 0.06838154, y: -0.0034686325, z: 0.06332004, w: 0.99564177}
+      scale: {x: 1.0000023, y: 1.0000031, z: 0.99999815}
+    - name: Index.R
+      parentName: hand.R.001
+      position: {x: 4.6268106e-10, y: 0.0021099574, z: -1.0728836e-10}
+      rotation: {x: -0.012519507, y: -0.019705944, z: 0.10476561, w: -0.99422294}
+      scale: {x: 1.0000024, y: 1.0000032, z: 0.99999964}
+    - name: Index.R.001
+      parentName: Index.R
+      position: {x: -9.655953e-10, y: 0.0018438427, z: 2.1457672e-10}
+      rotation: {x: 0.009262342, y: 0.0020144351, z: -0.039475564, w: 0.9991756}
+      scale: {x: 0.99999905, y: 0.9999989, z: 0.9999997}
+    - name: Index.R.001_end
+      parentName: Index.R.001
+      position: {x: -0, y: 0.0010335959, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand.R.002
+      parentName: hand.R
+      position: {x: -0.00015471256, y: 0.0024001878, z: 0.0003290047}
+      rotation: {x: 0.012563942, y: -0.0076424694, z: 0.029864838, w: 0.9994458}
+      scale: {x: 1.000001, y: 1.000001, z: 0.99999976}
+    - name: Middle.R
+      parentName: hand.R.002
+      position: {x: 6.353483e-10, y: 0.002109958, z: -5.364418e-11}
+      rotation: {x: 0.003805668, y: 0.006006697, z: 0.07392502, w: -0.9972385}
+      scale: {x: 1.0000032, y: 1.0000029, z: 1}
+    - name: Middle.R.001
+      parentName: Middle.R
+      position: {x: -9.387732e-10, y: 0.0020341957, z: 1.0728836e-10}
+      rotation: {x: -0.005337439, y: -0.025556296, z: -0.036576804, w: 0.9989898}
+      scale: {x: 1.0000032, y: 1.0000038, z: 1.0000011}
+    - name: Middle.R.001_end
+      parentName: Middle.R.001
+      position: {x: -0, y: 0.00086565316, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand.R.003
+      parentName: hand.R
+      position: {x: -0.0003114319, y: 0.002599076, z: -0.00038887883}
+      rotation: {x: 0.07386972, y: 0.014609002, z: 0.025699694, w: -0.9968296}
+      scale: {x: 0.99999905, y: 0.999997, z: 1.000002}
+    - name: Ring.R
+      parentName: hand.R.003
+      position: {x: 0.0000000011571217, y: 0.0019741484, z: -2.682209e-10}
+      rotation: {x: 0.05143141, y: -0.001087121, z: 0.012123505, w: 0.99860233}
+      scale: {x: 1.0000033, y: 1.0000024, z: 1.0000001}
+    - name: Ring.R.001
+      parentName: Ring.R
+      position: {x: 4.881935e-10, y: 0.0013559094, z: 6.7055224e-12}
+      rotation: {x: -0.00082434324, y: 0.0036571557, z: -0.040979158, w: 0.999153}
+      scale: {x: 1.0000052, y: 1.0000048, z: 1.0000001}
+    - name: Ring.R.001_end
+      parentName: Ring.R.001
+      position: {x: -0, y: 0.0010886522, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand.R.004
+      parentName: hand.R
+      position: {x: -0.00022024948, y: 0.0024296998, z: -0.0010851066}
+      rotation: {x: -0.12746398, y: -0.012605173, z: -0.018192403, w: 0.9915962}
+      scale: {x: 1.0000001, y: 0.9999979, z: 1.0000024}
+    - name: Pinky.R
+      parentName: hand.R.004
+      position: {x: -1.3411044e-10, y: 0.0016171038, z: 0}
+      rotation: {x: -0.106600486, y: 0.013146928, z: -0.010331803, w: -0.9941613}
+      scale: {x: 1.0000054, y: 1.0000044, z: 1.0000002}
+    - name: Pinky.R.001
+      parentName: Pinky.R
+      position: {x: 5.431473e-10, y: 0.0010327772, z: 1.3411044e-10}
+      rotation: {x: 0.00054104615, y: 0.00059876207, z: -0.039889876, w: 0.9992038}
+      scale: {x: 1.0000017, y: 1.0000018, z: 1.0000001}
+    - name: Pinky.R.001_end
+      parentName: Pinky.R.001
+      position: {x: -0, y: 0.0010643027, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand.R.005
+      parentName: hand.R
+      position: {x: 0.00045705645, y: 0.001317865, z: 0.0013940396}
+      rotation: {x: -0.33803394, y: -0.033980537, z: 0.21548906, w: -0.9155015}
+      scale: {x: 1.0000005, y: 1.0000046, z: 0.999995}
+    - name: Thumb.R
+      parentName: hand.R.005
+      position: {x: -2.4139882e-10, y: 0.0013565815, z: 0.0000000011265278}
+      rotation: {x: 0.058971323, y: 0.01868352, z: 0.20611943, w: 0.97656953}
+      scale: {x: 1.0000039, y: 1.0000002, z: 1.0000033}
+    - name: Thumb.R.001
+      parentName: Thumb.R
+      position: {x: 2.1457672e-10, y: 0.0010572103, z: -5.364418e-10}
+      rotation: {x: -0.024442218, y: -0.009649504, z: -0.028228277, w: 0.9992561}
+      scale: {x: 1.0000064, y: 1.0000044, z: 1.0000021}
+    - name: Thumb.R.001_end
+      parentName: Thumb.R.001
+      position: {x: -0, y: 0.001002997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: breast.R
+      parentName: spine.003
+      position: {x: 0.0023922331, y: 0.00033008974, z: -0.0002914228}
+      rotation: {x: 0.000000058009427, y: 0.56106037, z: 0.8277749, w: -0.000000113592144}
+      scale: {x: 1.0000007, y: 0.99999887, z: 0.99999905}
+    - name: breast.R_end
+      parentName: breast.R
+      position: {x: -0, y: 0.0014496872, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ArrowCase
+      parentName: spine.003
+      position: {x: -0.00003902937, y: 0.00048128495, z: -0.0045637847}
+      rotation: {x: 0.19607677, y: -0.042807102, z: 0.21016002, w: 0.956846}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.99999994}
+    - name: Cube.002
+      parentName: ArrowCase
+      position: {x: -0.000083476676, y: 0.0015864713, z: 0.00001238451}
+      rotation: {x: -0.714942, y: 0.019315869, z: -0.0126887355, w: 0.69880176}
+      scale: {x: 0.9999998, y: 0.42140296, z: 0.9999998}
+    - name: Cylinder.006
+      parentName: Cube.002
+      position: {x: -0.00009167458, y: 0.0000948103, z: 0.0006319123}
+      rotation: {x: -7.563385e-12, y: 0.0075962814, z: 0.0000000014260341, w: 0.99997115}
+      scale: {x: 0.07216143, y: 0.17124088, z: 1.8147155}
+    - name: ArrowCase_end
+      parentName: ArrowCase
+      position: {x: -0, y: 0.003332972, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pelvis.L
+      parentName: spine
+      position: {x: -5.807046e-21, y: -1.0728836e-10, z: 0}
+      rotation: {x: -0.2705321, y: 0.80857074, z: 0.29098967, w: 0.43399405}
+      scale: {x: 1.0000025, y: 1.0000012, z: 1.0000018}
+    - name: pelvis.L_end
+      parentName: pelvis.L
+      position: {x: -0, y: 0.0026256929, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thigh.L
+      parentName: spine
+      position: {x: -0.0015900275, y: 0.00053260755, z: 0.0007017067}
+      rotation: {x: 0.9603606, y: -0.06166091, z: 0.02247345, w: 0.27092525}
+      scale: {x: 0.9999994, y: 1.0000029, z: 1.0000027}
+    - name: shin.L
+      parentName: thigh.L
+      position: {x: -1.6763806e-11, y: 0.003096718, z: -2.0116568e-11}
+      rotation: {x: 0.15881534, y: -0.009401982, z: -0.03446027, w: 0.9866619}
+      scale: {x: 1, y: 1.0000017, z: 1.0000025}
+    - name: foot.L
+      parentName: shin.L
+      position: {x: 3.1935052e-10, y: 0.0034178942, z: -2.581626e-10}
+      rotation: {x: -0.63760203, y: 0.0098928185, z: -0.02830538, w: 0.7697822}
+      scale: {x: 0.9999994, y: 1.000002, z: 1.0000035}
+    - name: toe.L
+      parentName: foot.L
+      position: {x: 3.4365802e-11, y: 0.0026829774, z: -3.2270325e-11}
+      rotation: {x: 0.00000020395964, y: 0.97781855, z: -0.20945406, w: -0.0000013425015}
+      scale: {x: 1.0000046, y: 1.0000018, z: 1.0000013}
+    - name: toe.L_end
+      parentName: toe.L
+      position: {x: -0, y: 0.0020298157, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: heel.02.L
+      parentName: foot.L
+      position: {x: 0.00039574853, y: 0.00030580195, z: 0.0015004365}
+      rotation: {x: -0.6838479, y: 0.68384755, z: -0.17986715, w: -0.17986768}
+      scale: {x: 1.0000023, y: 1.0000023, z: 1.0000014}
+    - name: heel.02.L_end
+      parentName: heel.02.L
+      position: {x: -0, y: 0.0008331532, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pelvis.R
+      parentName: spine
+      position: {x: -5.807046e-21, y: -1.0728836e-10, z: 0}
+      rotation: {x: 0.27053237, y: 0.80857044, z: 0.29098955, w: -0.4339945}
+      scale: {x: 0.9999988, y: 1.0000007, z: 0.9999998}
+    - name: pelvis.R_end
+      parentName: pelvis.R
+      position: {x: -0, y: 0.0026256929, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thigh.R
+      parentName: spine
+      position: {x: 0.0015900283, y: 0.0005326066, z: 0.0007017055}
+      rotation: {x: 0.9603606, y: 0.06166098, z: -0.022474078, w: 0.2709252}
+      scale: {x: 1.0000002, y: 1.0000036, z: 1.0000038}
+    - name: shin.R
+      parentName: thigh.R
+      position: {x: 3.5266856e-10, y: 0.0030967183, z: 2.0116568e-11}
+      rotation: {x: 0.15881541, y: 0.00940203, z: 0.034460206, w: 0.9866619}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000006}
+    - name: foot.R
+      parentName: shin.R
+      position: {x: -2.682209e-11, y: 0.003417894, z: -4.3585895e-11}
+      rotation: {x: -0.637602, y: -0.009892827, z: 0.028305415, w: 0.76978225}
+      scale: {x: 0.99999917, y: 0.99999774, z: 0.9999981}
+    - name: toe.R
+      parentName: foot.R
+      position: {x: 1.127366e-10, y: 0.0026829762, z: 1.02259215e-10}
+      rotation: {x: -0.00000021513549, y: 0.9778184, z: -0.20945442, w: 0.0000013671814}
+      scale: {x: 1.000005, y: 1.0000029, z: 1.0000031}
+    - name: toe.R_end
+      parentName: toe.R
+      position: {x: -0, y: 0.0020298157, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: heel.02.R
+      parentName: foot.R
+      position: {x: -0.0003957484, y: 0.0003058019, z: 0.0015004363}
+      rotation: {x: -0.68384784, y: -0.68384755, z: 0.17986731, w: -0.17986776}
+      scale: {x: 1.0000029, y: 1.0000007, z: 1.0000024}
+    - name: heel.02.R_end
+      parentName: heel.02.R
+      position: {x: -0, y: 0.0008331532, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ArmController.L
+      parentName: Root
+      position: {x: -0.009878123, y: 0.013204471, z: 0.0020040076}
+      rotation: {x: -0.019661248, y: 0.090621494, z: 0.2111148, w: 0.9730528}
+      scale: {x: 0.9999999, y: 1.0000006, z: 0.9999999}
+    - name: ArmPole.L
+      parentName: ArmController.L
+      position: {x: 0.005349823, y: 0.000733582, z: -0.009202223}
+      rotation: {x: 0.4769671, y: 0.60111713, z: -0.5220178, w: -0.37236816}
+      scale: {x: 1.0000026, y: 1.0000021, z: 1.0000017}
+    - name: ArmPole.L_end
+      parentName: ArmPole.L
+      position: {x: -0, y: 0.0024674674, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LegController.L
+      parentName: Root
+      position: {x: -0.0021865577, y: 0.0019447934, z: -0.0012533134}
+      rotation: {x: -0.706776, y: 0.021625012, z: -0.021625083, w: 0.7067761}
+      scale: {x: 1, y: 1.0000048, z: 1.0000046}
+    - name: LegPole.L
+      parentName: LegController.L
+      position: {x: -0.000005820152, y: -0.008744782, z: 0.0032366035}
+      rotation: {x: 0.9995338, y: 0.00000006332993, z: -0.030532654, w: -0.000000056170386}
+      scale: {x: 0.9999998, y: 1.0000024, z: 1.0000033}
+    - name: LegPole.L_end
+      parentName: LegPole.L
+      position: {x: -0, y: 0.0016811305, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ArmController.R
+      parentName: Root
+      position: {x: 0.010273537, y: 0.010976745, z: -0.0016743869}
+      rotation: {x: -0.019661248, y: -0.09062145, z: -0.21111473, w: 0.9730528}
+      scale: {x: 0.9999998, y: 1.0000007, z: 1}
+    - name: ArmPole.R
+      parentName: ArmController.R
+      position: {x: -0.0053498223, y: 0.0007335841, z: -0.009202224}
+      rotation: {x: -0.4769671, y: 0.60111713, z: -0.5220178, w: 0.37236822}
+      scale: {x: 1.0000031, y: 1.0000025, z: 1.0000019}
+    - name: ArmPole.R_end
+      parentName: ArmPole.R
+      position: {x: -0, y: 0.0024674674, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LegController.R
+      parentName: Root
+      position: {x: 0.0021865577, y: 0.0019447934, z: -0.0012533134}
+      rotation: {x: -0.706776, y: -0.02162507, z: 0.021625007, w: 0.7067761}
+      scale: {x: 1, y: 1.0000048, z: 1.0000046}
+    - name: LegPole.R
+      parentName: LegController.R
+      position: {x: 0.000005820152, y: -0.008744782, z: 0.0032366035}
+      rotation: {x: 0.9995338, y: 0.000000027939674, z: 0.030532714, w: -0.00000006181653}
+      scale: {x: 0.99999976, y: 1.0000024, z: 1.0000033}
+    - name: LegPole.R_end
+      parentName: LegPole.R
+      position: {x: -0, y: 0.0016811305, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Archer.001
+      parentName: OrcArcher(Clone)
+      position: {x: 0.005140164, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bow
+      parentName: OrcArcher(Clone)
+      position: {x: -0.91473925, y: 0.9710947, z: -0.22096317}
+      rotation: {x: -0.113545254, y: 0.11390157, z: -0.5896672, w: 0.7914711}
+      scale: {x: 157.38675, y: 157.38675, z: 157.38673}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
