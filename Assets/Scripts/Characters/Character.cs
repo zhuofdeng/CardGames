@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-enum State {
+public enum State {
     IDLE,
     ATTACK,
     DEAD,
     FROZEN,
+    WALK,
     // TODO, ADD MORE IF NEEDED.
 }
 /*
@@ -14,25 +15,63 @@ enum State {
 */
 public class Character : MonoBehaviour
 {
-    protected uint health;
-    protected uint attack;
+    protected uint m_health;
+    protected uint m_attack;
 
-    private State characterState;
+    protected State m_characterState;
+
+    Animator m_animator;
+    int isWalkingHash;
+    int isAttackingHash;
+    int isDeadHash;
+    int isIdleHash;
 
     public uint Health { get; private set; }
 
     public uint Attack { get; private set; }
 
     // Start is called before the first frame update
-    void Start()
+    public virtual void Start()
     {
-        this.characterState = State.IDLE;
+        m_characterState = State.IDLE;
+        m_animator = GetComponent<Animator>();
+        isWalkingHash = Animator.StringToHash("isWalking");
+        isAttackingHash = Animator.StringToHash("isAttacking");
+        isDeadHash = Animator.StringToHash("isDead");
     }
 
     // Update is called once per frame
-    void Update()
+    public virtual void Update()
     {
-        
+        bool isIdle = m_animator.GetBool(isIdleHash);
+        bool isAttacking = m_animator.GetBool(isAttackingHash);
+        bool isWalking = m_animator.GetBool(isWalkingHash);
+        bool isDead = m_animator.GetBool(isDeadHash);
+
+        switch(m_characterState) 
+        {
+            case State.IDLE:
+                if (!isWalking && !isAttacking) {
+                    m_animator.SetBool(isWalkingHash, false);
+                    m_animator.SetBool(isAttackingHash, false);
+                }
+            break;
+            case State.ATTACK:
+                if (!isAttacking) {
+                    m_animator.SetBool(isAttackingHash, true);
+                }
+            break;
+            case State.DEAD:
+                if (!isDead) {
+                    m_animator.SetBool(isDeadHash, true);
+                }
+            break;
+            case State.WALK:
+                if (!isWalking) {
+                    m_animator.SetBool(isWalkingHash, true);
+                }
+            break;
+        } 
     }
 
     // base attack, child classes should override this if they have other types of attack ie magic etc.
@@ -43,9 +82,9 @@ public class Character : MonoBehaviour
 
     public void TakeDamage(uint attack)
     {
-        this.health -= attack;
-        if (this.health <= 0) {
-            this.characterState = State.DEAD;
+        this.m_health -= attack;
+        if (this.m_health <= 0) {
+            this.m_characterState = State.DEAD;
         }
     }
 }
