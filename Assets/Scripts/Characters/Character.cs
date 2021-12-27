@@ -17,6 +17,7 @@ public class Character : MonoBehaviour
 {
     protected uint m_health;
     protected uint m_attack;
+    protected uint m_speed;
 
     protected State m_characterState;
 
@@ -29,6 +30,8 @@ public class Character : MonoBehaviour
     public uint Health { get; private set; }
 
     public uint Attack { get; private set; }
+
+    public uint Speed { get; private set; }
 
     // Start is called before the first frame update
     public virtual void Start()
