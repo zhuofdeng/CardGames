@@ -2,15 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-enum CharacterTypes {
-    SPIDER,
+public enum CharacterTypes {
+    BAT,
+    BOAR,
+    BEAR,
+    RAT,
+    WOLF,
 }
+
+[System.Serializable]
+public struct SpawnTypes {
+    public CharacterTypes t_type;
+    public GameObject t_GameObjectPrefab; 
+}
+
+
 /*
     This is a class for spawning enemies.
 */
 public class SpawnManager : MonoBehaviour
 {
-    public GameObject m_spider;
+    public List<SpawnTypes> m_spawnableCharacters = new List<SpawnTypes>();
+
     private Collider m_collider;
 
     void Start()
@@ -19,9 +32,18 @@ public class SpawnManager : MonoBehaviour
 
         // Temporary:
         // spawn two spiders
-        SpawnCharacterType(CharacterTypes.SPIDER, 2);
+        SpawnCharacterType(CharacterTypes.WOLF, 2);
     }
 
+    GameObject GetSpawnableGameObjectByType(CharacterTypes type) {
+        for(int i = 0; i < m_spawnableCharacters.Count; i++) {
+            if (m_spawnableCharacters[i].t_type == type) {
+                return m_spawnableCharacters[i].t_GameObjectPrefab;
+            }
+        }
+
+        return null;
+    }
     /*
         Randomly spawn game objects inside a rectangle
         GameObject: game object to spawn
@@ -40,12 +62,9 @@ public class SpawnManager : MonoBehaviour
     }
     void SpawnCharacterType(CharacterTypes character, uint count = 1) 
     {
-        switch(character)
-        {
-            case CharacterTypes.SPIDER:
-                StartCoroutine(Spawn(m_spider, count));
-            break;
+        GameObject go = GetSpawnableGameObjectByType(character);
+        if (go) {
+            StartCoroutine(Spawn(go, count));
         }
     }
-
 }

@@ -7,8 +7,13 @@ public enum State {
     ATTACK,
     DEAD,
     FROZEN,
-    WALK,
+    MOVE,
     // TODO, ADD MORE IF NEEDED.
+}
+
+public enum CharacterType {
+    GROUND,
+    AIR,
 }
 /*
     This is a Base class for all character types.
@@ -18,14 +23,18 @@ public class Character : MonoBehaviour
     protected uint m_health;
     protected uint m_attack;
     protected uint m_speed;
+    protected CharacterType m_type;
+
     protected float m_awarenessDistanceSquared;
+    protected float m_attackDistanceSquared;
 
     protected float m_attackRate;
 
     protected State m_characterState;
+    protected Character m_target;
 
     Animator m_animator;
-    int isWalkingHash;
+    int isMovingHash;
     int isAttackingHash;
     int isDeadHash;
 
@@ -35,7 +44,11 @@ public class Character : MonoBehaviour
 
     public uint Speed { get { return m_speed; } private set { m_speed = value; } }
 
-    public float AwarenessDistanceSquared { get { return m_awarenessDistanceSquared; } private set { m_awarenessDistanceSquared = value; }}
+    public float AwarenessDistanceSquared { get { return m_awarenessDistanceSquared; } private set { m_awarenessDistanceSquared = value; } }
+
+    public CharacterType Type { get { return m_type; } private set {m_type = value; } }
+
+    public float AttackDistance { get { return m_attackDistanceSquared; } private set { m_attackDistanceSquared = value; } }
 
     // Start is called before the first frame update
     public virtual void Start()
@@ -45,10 +58,10 @@ public class Character : MonoBehaviour
         m_attackRate = 0.5f;
         // this is 100 units squared, so it is actually 10 units away.
         // we use squared distance because square root is a expensive calculation.
-        m_awarenessDistanceSquared = 100;
+        m_awarenessDistanceSquared = 300;
 
         m_animator = GetComponent<Animator>();
-        isWalkingHash = Animator.StringToHash("isWalking");
+        isMovingHash = Animator.StringToHash("isMoving");
         isAttackingHash = Animator.StringToHash("isAttacking");
         isDeadHash = Animator.StringToHash("isDead");
     }
@@ -57,14 +70,14 @@ public class Character : MonoBehaviour
     public virtual void Update()
     {
         bool isAttacking = m_animator.GetBool(isAttackingHash);
-        bool isWalking = m_animator.GetBool(isWalkingHash);
+        bool isWalking = m_animator.GetBool(isMovingHash);
         bool isDead = m_animator.GetBool(isDeadHash);
 
         switch(m_characterState) 
         {
             case State.IDLE:
                 if (isWalking || isAttacking) {
-                    m_animator.SetBool(isWalkingHash, false);
+                    m_animator.SetBool(isMovingHash, false);
                     m_animator.SetBool(isAttackingHash, false);
                 }
             break;
@@ -77,18 +90,22 @@ public class Character : MonoBehaviour
                 if (!isDead) {
                     m_animator.SetBool(isDeadHash, true);
                 }
+                if (m_target != null) {
+                    // release the target once dead.
+                    m_target = null;
+                }
             break;
-            case State.WALK:
+            case State.MOVE:
                 if (!isWalking) {
-                    m_animator.SetBool(isWalkingHash, true);
+                    m_animator.SetBool(isMovingHash, true);
                 }
             break;
         } 
     }
 
-    public void LookAtPoint(Transform _transform) {
+    public void LookAtPoint(Transform targetTransform) {
         // Determine which direction to rotate towards
-        Vector3 targetDirection = transform.position - _transform.position;
+        Vector3 targetDirection = targetTransform.position - transform.position;
 
         // The step size is equal to speed times frame time.
         float singleStep = m_speed * Time.deltaTime;
