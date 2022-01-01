@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro.Editor", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.CollabProxy.Editor", "Unity.CollabProxy.Editor.csproj", "{cbf07b0b-c873-b7e3-bf7d-6590d45e164e}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{63aef8cf-f2f7-c983-1380-7e3fcc5d28d1}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Rider.Editor", "Unity.Rider.Editor.csproj", "{3e238427-1726-edf7-3ef8-7df50585dc31}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VSCode.Editor", "Unity.VSCode.Editor.csproj", "{0447a8cc-f60c-d78b-8381-b7722ee87c45}"
@@ -62,6 +64,8 @@ Global
 		{150de885-e0e4-cba3-2fd0-78c0fb3fa1ff}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{cbf07b0b-c873-b7e3-bf7d-6590d45e164e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{cbf07b0b-c873-b7e3-bf7d-6590d45e164e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63aef8cf-f2f7-c983-1380-7e3fcc5d28d1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63aef8cf-f2f7-c983-1380-7e3fcc5d28d1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3e238427-1726-edf7-3ef8-7df50585dc31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3e238427-1726-edf7-3ef8-7df50585dc31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0447a8cc-f60c-d78b-8381-b7722ee87c45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

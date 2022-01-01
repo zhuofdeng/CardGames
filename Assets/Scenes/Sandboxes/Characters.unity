@@ -692,7 +692,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16022feb6d98e4792bc4a04d5ed669d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_spider: {fileID: 5572779666037620316, guid: bb5565890ab04a0419894e9d8455e118, type: 3}
+  m_spawnableCharacters:
+  - t_type: 0
+    t_GameObjectPrefab: {fileID: 1256056775863069822, guid: 19a435c97d7b233499f3a981e5e77e23, type: 3}
+  - t_type: 1
+    t_GameObjectPrefab: {fileID: 6850242495445541310, guid: 20298a3408bf2f645a4d77683f4be78c, type: 3}
+  - t_type: 2
+    t_GameObjectPrefab: {fileID: 1324653613528069777, guid: 43076c970ab7bff408f9e7d1052cbf53, type: 3}
+  - t_type: 3
+    t_GameObjectPrefab: {fileID: 5600892759164636097, guid: 35dc2d2a9984326449596351d5379a42, type: 3}
+  - t_type: 4
+    t_GameObjectPrefab: {fileID: 3922436969465322200, guid: 3f45a1b963ef6bc4081df96bf8773640, type: 3}
 --- !u!65 &1669614729
 BoxCollider:
   m_ObjectHideFlags: 0
