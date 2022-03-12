@@ -31,6 +31,7 @@ public class Game : GenericSingletonClass<Game>
         List<Hero> result = new List<Hero>();
         foreach(Hero hero in heroes) {
             float distance = Vector3.SqrMagnitude(enemy.transform.position - hero.transform.position);
+            Debug.Log("Hero Distance" + distance);
             if (distance <= enemy.AwarenessDistanceSquared) {
                 result.Add(hero);
             }
